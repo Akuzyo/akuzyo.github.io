@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-07-28T20:47:25.861Z</updated>
+  <updated>2021-08-10T21:23:41.151Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://example.com/2021/08/11/recently/"/>
+    <id>http://example.com/2021/08/11/recently/</id>
+    <published>2021-08-10T21:19:46.625Z</published>
+    <updated>2021-08-10T21:23:41.151Z</updated>
+    
+    <content type="html"><![CDATA[<p>”关于-这个网站“的页面也写好了，可以过去看一下o(￣▽￣)ｄ</p><p>最近的学校生活很累，但感觉很充实，和同学的关系也很好（至少比以前好多了）</p><p>但是学习的状态不怎么好，需要调整一下</p><p>本来这周回来是要写html的笔记的，但是睡了一天（所以我又没调整好）</p><p>就这样吧，要睡觉了，晚安zzz</p>]]></content>
+    
+    
+    <summary type="html">”关于-这个网站“的页面也写好了，可以过去看一下o(￣▽￣)ｄ
+
+最近的学校生活很累，但感觉很充实，和同学的关系也很好（至少比以前好多了）
+
+但是学习的状态不怎么好，需要调整一下
+
+本来这周回来是要写html的笔记的，但是睡了一天（所以我又没调整好）
+
+就这样吧，要睡觉了，晚安zzz</summary>
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>聊聊这个暑假发生的事</title>

@@ -18,8 +18,8 @@
   
   <entry>
     <title></title>
-    <link href="http://example.com/2021/08/11/recently/"/>
-    <id>http://example.com/2021/08/11/recently/</id>
+    <link href="http://example.com/2021/08/11/recent/"/>
+    <id>http://example.com/2021/08/11/recent/</id>
     <published>2021-08-10T21:19:46.625Z</published>
     <updated>2021-08-10T21:23:41.151Z</updated>
     
@@ -175,11 +175,11 @@
   </entry>
   
   <entry>
-    <title>忙...</title>
+    <title></title>
     <link href="http://example.com/2021/07/04/busy/"/>
     <id>http://example.com/2021/07/04/busy/</id>
-    <published>2021-07-03T16:14:24.000Z</published>
-    <updated>2021-07-28T20:32:53.788Z</updated>
+    <published>2021-07-03T16:14:24.668Z</published>
+    <updated>2021-08-10T21:29:28.021Z</updated>
     
     <content type="html"><![CDATA[<p><strong>最近因为集训…所以说先把页面放上来了…</strong></p><p>“关于..—自己”这个页面是可以用的，可以随便看一看…</p><p>有很多东西没有整好…等有时间我在慢慢改吧..</p><p>emm..就这样</p>]]></content>
     
@@ -194,10 +194,6 @@ emm..就这样</summary>
     
     
     
-    <category term="随便聊聊" scheme="http://example.com/categories/%E9%9A%8F%E4%BE%BF%E8%81%8A%E8%81%8A/"/>
-    
-    
-    <category term="闲聊" scheme="http://example.com/tags/%E9%97%B2%E8%81%8A/"/>
     
   </entry>
   

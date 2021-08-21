@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-08-10T21:23:41.151Z</updated>
+  <updated>2021-08-21T06:57:51.465Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>学会了一些新的html标签和属性ヾ(≧ ▽ ≦)ゝ</title>
+    <link href="http://example.com/2021/08/21/daily/"/>
+    <id>http://example.com/2021/08/21/daily/</id>
+    <published>2021-08-21T06:52:56.000Z</published>
+    <updated>2021-08-21T06:57:51.465Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id=""><a href="#" class="headerlink" title=""></a><a href="https://imgtu.com/i/fvsCCR"><img src="https://z3.ax1x.com/2021/08/21/fvsCCR.png" alt="fvsCCR.png"></a></h2><h2 id="最近学会了html的样式"><a href="#最近学会了html的样式" class="headerlink" title="最近学会了html的样式"></a>最近学会了html的样式</h2><h2 id="但是没有时间写笔记了，那就下周再说吧ヾ-•ω•-o"><a href="#但是没有时间写笔记了，那就下周再说吧ヾ-•ω•-o" class="headerlink" title="但是没有时间写笔记了，那就下周再说吧ヾ(•ω•`)o"></a>但是没有时间写笔记了，那就下周再说吧ヾ(•ω•`)o</h2>]]></content>
+    
+    
+    <summary type="html">最近学会了html的样式
+但是没有时间写笔记了，那就下周再说吧ヾ(•ω•`)o</summary>
+    
+    
+    
+    <category term="随便聊聊" scheme="http://example.com/categories/%E9%9A%8F%E4%BE%BF%E8%81%8A%E8%81%8A/"/>
+    
+    
+    <category term="-闲聊" scheme="http://example.com/tags/%E9%97%B2%E8%81%8A/"/>
+    
+  </entry>
   
   <entry>
     <title></title>

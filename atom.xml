@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-09-12T07:32:36.525Z</updated>
+  <updated>2021-10-24T04:13:22.847Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,52 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>更多的html标签</title>
+    <link href="http://example.com/2021/10/24/More-Elements/"/>
+    <id>http://example.com/2021/10/24/More-Elements/</id>
+    <published>2021-10-24T02:54:51.000Z</published>
+    <updated>2021-10-24T04:13:22.847Z</updated>
+    
+    <content type="html"><![CDATA[<p>终于有时间了…</p><p>高三是真的忙啊(´。＿。｀)，这么长时间我差点连md也不会用了</p><p>前面基本了解了一下html里面有些什么</p><p>那么今天就来看一下html的主体—标签吧q(≧▽≦q)</p><hr><h1 id="lt-hr-gt-与-lt-br-gt"><a href="#lt-hr-gt-与-lt-br-gt" class="headerlink" title="&lt; hr &gt;与&lt; br &gt;"></a>&lt; hr &gt;与&lt; br &gt;</h1><p>虽然功能不一样，但是因为两个长得太相近所以就把这两个列在一起了</p><p><strong>&lt; hr &gt;</strong> 的作用是加入分割线，和md里的<code>---</code>作用差不多</p><p><strong>&lt; br &gt;</strong> 的作用是换行，毕竟在html的世界里是不能直接按回车的</p><blockquote><p>这两个元素还都是空元素，所以使用的时候别忘了写成<code>&lt;br /&gt;</code></p></blockquote><h1 id="html的格式化"><a href="#html的格式化" class="headerlink" title="html的格式化"></a>html的格式化</h1><p>首先，听到格式化不要认为是什么把你文件全抹除的东西</p><p>他就是一个类似于word里改变文字格式的工具栏，只不过用代码呈现了</p><blockquote><p>以下的标签我尽力去与md里的标签相对应（可能用途不是完全一样）</p><p>由于有点多所以会用一些例子</p></blockquote><h6 id="lt-b-gt-标签和-lt-strong-gt-标签"><a href="#lt-b-gt-标签和-lt-strong-gt-标签" class="headerlink" title="&lt; b &gt; 标签和 &lt; strong &gt; 标签"></a><strong>&lt; b &gt;</strong> 标签和 <strong>&lt; strong &gt;</strong> 标签</h6><p>显示效果和<code>** **</code> 的效果差不多，但是<del>后者比前者比较强调某件事的重要性</del>（我不知道真的有什么区别）</p><p><code>&lt;b&gt;文字&lt;/b&gt;</code> 的效果就像  <b>这样</b></p><h6 id="lt-em-gt-和-lt-i-gt-标签"><a href="#lt-em-gt-和-lt-i-gt-标签" class="headerlink" title="&lt; em &gt; 和 &lt; i &gt; 标签"></a><strong>&lt; em &gt;</strong> 和 <strong>&lt; i &gt;</strong> 标签</h6><p>显示效果和<code>* *</code> 的显示效果相同，但em，同样也有强调的作用</p><p><code>&lt;i&gt;文字&lt;/i&gt;</code> 的 <i>效果</i></p><h6 id="lt-sub-gt-与-lt-sup-gt"><a href="#lt-sub-gt-与-lt-sup-gt" class="headerlink" title="&lt; sub &gt; 与 &lt; sup &gt;"></a><strong>&lt; sub &gt;</strong> 与 <strong>&lt; sup &gt;</strong></h6><p>效果是上标和下标（这里md里没有对应的语法，淦）</p><p>用来写公式或许会很有用</p><p><code>&lt;sub&gt;</code> 的 <sub>效果</sub> 和<code>&lt;sup&gt;</code> 的 <sup>效果</sup> </p><h6 id="lt-del-gt"><a href="#lt-del-gt" class="headerlink" title="&lt; del &gt;"></a><strong>&lt; del &gt;</strong></h6><p>作用与<code>~~文字~~</code> 一样，都是加入删除线</p><p>效果是<del>这样</del></p><h6 id="现在看到html是这个样子-感觉md更方便了-￣▽￣-”"><a href="#现在看到html是这个样子-感觉md更方便了-￣▽￣-”" class="headerlink" title="现在看到html是这个样子,感觉md更方便了(￣▽￣)”"></a>现在看到html是这个样子,感觉md更方便了(￣▽￣)”</h6><h2 id="一如既往的，感谢你能看到最后╰-￣ω￣o"><a href="#一如既往的，感谢你能看到最后╰-￣ω￣o" class="headerlink" title="一如既往的，感谢你能看到最后╰(￣ω￣ｏ)"></a>一如既往的，感谢你能看到最后╰(￣ω￣ｏ)</h2><h2 id="下次的目标就是要讲style属性了（但是就不知道是什么时候你们才能看到了…）"><a href="#下次的目标就是要讲style属性了（但是就不知道是什么时候你们才能看到了…）" class="headerlink" title="下次的目标就是要讲style属性了（但是就不知道是什么时候你们才能看到了…）"></a>下次的目标就是要讲style属性了（但是就不知道是什么时候你们才能看到了…）</h2>]]></content>
+    
+    
+    <summary type="html">终于有时间了…
+
+高三是真的忙啊(´。＿。｀)，这么长时间我差点连md也不会用了
+
+前面基本了解了一下html里面有些什么
+
+那么今天就来看一下html的主体—标签吧q(≧▽≦q)
+
+
+
+
+&lt; hr &gt;与&lt; br &gt;
+虽然功能不一样，但是因为两个长得太相近所以就把这两个列在一起了
+
+&lt; hr &gt; 的作用是加入分割线，和md里的---作用差不多
+
+&lt; br &gt; 的作用是换行，毕竟在html的世界里是不能直接按回车的
+
+这两个元素还都是空元素，所以使用的时候别忘了写成&lt;br /&gt;
+
+html的格式化
+首先，听到格式化不要认为是什么把你文件全抹除的东西
+
+他就是一个类似于word里改变文字格式的工具</summary>
+    
+    
+    
+    <category term="html的笔记" scheme="http://example.com/categories/html%E7%9A%84%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="瞎扯" scheme="http://example.com/tags/%E7%9E%8E%E6%89%AF/"/>
+    
+    <category term="自己的笔记" scheme="http://example.com/tags/%E8%87%AA%E5%B7%B1%E7%9A%84%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>记一次公交“旅行”</title>

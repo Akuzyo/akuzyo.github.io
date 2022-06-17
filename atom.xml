@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-04-21T17:40:58.893Z</updated>
+  <updated>2022-06-17T15:12:07.052Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://example.com/2022/04/22/decision/"/>
     <id>http://example.com/2022/04/22/decision/</id>
     <published>2022-04-21T17:29:14.000Z</published>
-    <updated>2022-04-21T17:40:58.893Z</updated>
+    <updated>2022-06-17T15:12:07.052Z</updated>
     
     <content type="html"><![CDATA[<blockquote><p>人生只是多个选择，无关对错，重要的是能够承受做出选择后的结果</p></blockquote><hr><h4 id="最近的事情"><a href="#最近的事情" class="headerlink" title="最近的事情"></a>最近的事情</h4><p>先说说最近发生了什么吧</p><p>我这么长时间的断更，一是因为学业繁忙，没有太多的时间来更新了</p><p>其次是在尝试去建立自己的misskey实例，虽然建成了但服务器也欠费了（最近还很穷TAT）</p><p>最近发生的大事也就是这两件了，后面一件我会在后面单独说，这也是要写这些文字，或者说做出这个选择的原因</p><h4 id="封校"><a href="#封校" class="headerlink" title="封校"></a>封校</h4><p>总所周知，今年国内的疫情形势不怎么乐观，我们这边的城市也是这样</p><p>封校来的太突然，以至于我们这些跑校生根本没有做好太多准备</p><p>而在这次封校中，表现的最强烈的应该是我了</p><p>学习的效率降了一大半，天天在骂学校（虽然这改变不了什么，其根本原因别人都在家，我们也在这里快封了三周了），当然最根本的是<strong>与集体生活的格格不入</strong></p><p>我在高中之前可以说是从来没有住过校，所以也习惯了自己在家里一个人默默的学习，而且还会有更多的时间去分(duo)配(xue)时(ying)间(yu)，但当然不会有学校那样的氛围</p><p>但是如果在住校方面的话，自己会很浮躁，上课也天天睡觉，学校开设的”夜自习室”也并没没有太大动力去，感觉自己就是浑浑噩噩度过了好几天，虽然学校也在尽最大的力来帮助我，但我仍然还是浮躁</p><p>而在这段休息的时间里，我有两个选择，一个是在家里自学，而另一个是回到学校继续这么过日子</p><h6 id="这是一道送命的选择题"><a href="#这是一道送命的选择题" class="headerlink" title="这是一道送命的选择题"></a>这是一道送命的选择题</h6><h4 id="对比"><a href="#对比" class="headerlink" title="对比"></a>对比</h4><p><strong>自学</strong></p><p>优点</p><ul><li><p>更佳的精神状态/动力</p></li><li><p>较自由的时间分配</p></li><li><p>更多的信息来源</p></li><li><p>更容易适应的个人生活</p></li></ul><p>缺点</p><ul><li><p>易分心</p></li><li><p>没有线下的指导</p></li><li><p>需要更大的精力去找题</p></li></ul><p><strong>返回学校</strong></p><p>优点</p><ul><li><p>有线下的指导和配套的题目</p></li><li><p>对弱势科目可以很好地兼顾</p></li><li><p>学习的良好氛围</p></li></ul><p>缺点</p><ul><li><p>不佳的状态</p></li><li><p>难以适应的集体生活和“规章制度”</p></li></ul><h2 id="结果"><a href="#结果" class="headerlink" title="结果"></a>结果</h2><p>对于我来说，2020年的网课给我留下很深的回忆</p><p>当然并不是很糟的一面，我很喜欢这样的时光，也或多或少影响了我的奇怪的观念</p><p>所以结果…我还是想在家里呆一会</p><p>就算是落下了也没有太大关系，因为这是我自己的选择，也应该承担我应该要承担的后果</p><h2 id="初感受"><a href="#初感受" class="headerlink" title="初感受"></a>初感受</h2><p>既然做出这个选择，就一直走下去就可以了</p><p>第一天感觉还不错，希望能坚持到开学</p><h3 id="一如既往，再次感谢你能看到最后╰-￣ω￣o"><a href="#一如既往，再次感谢你能看到最后╰-￣ω￣o" class="headerlink" title="一如既往，再次感谢你能看到最后╰(￣ω￣ｏ)"></a>一如既往，再次感谢你能看到最后╰(￣ω￣ｏ)</h3>]]></content>
     
@@ -54,7 +54,7 @@
     <category term="随便聊聊" scheme="http://example.com/categories/%E9%9A%8F%E4%BE%BF%E8%81%8A%E8%81%8A/"/>
     
     
-    <category term="-闲聊" scheme="http://example.com/tags/%E9%97%B2%E8%81%8A/"/>
+    <category term="闲聊" scheme="http://example.com/tags/%E9%97%B2%E8%81%8A/"/>
     
   </entry>
   

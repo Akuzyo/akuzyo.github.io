@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-06-17T15:12:07.052Z</updated>
+  <updated>2022-06-18T15:38:23.151Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,76 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>More-and-More</title>
+    <link href="http://example.com/2022/06/18/More-and-More/"/>
+    <id>http://example.com/2022/06/18/More-and-More/</id>
+    <published>2022-06-18T15:33:15.000Z</published>
+    <updated>2022-06-18T15:38:23.151Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="更多更多的标签来啦"><a href="#更多更多的标签来啦" class="headerlink" title="更多更多的标签来啦"></a>更多更多的标签来啦</h1><p>这次准备试试看到什么写什么，当然该查的还是得查的OWO</p><p>那就让我们开始吧(￣▽￣)”</p><h3 id="当然，这也是一个自用的笔记，如有失误希望能在评论中帮我指正，这对我有很大的帮助o-￣▽￣-ブ"><a href="#当然，这也是一个自用的笔记，如有失误希望能在评论中帮我指正，这对我有很大的帮助o-￣▽￣-ブ" class="headerlink" title="当然，这也是一个自用的笔记，如有失误希望能在评论中帮我指正，这对我有很大的帮助o(￣▽￣)ブ"></a>当然，这也是一个自用的笔记，如有失误希望能在评论中帮我指正，这对我有很大的帮助o(<em>￣▽￣</em>)ブ</h3><hr><h1 id="lt-a-gt-标签"><a href="#lt-a-gt-标签" class="headerlink" title="&lt; a &gt;标签"></a>&lt; a &gt;标签</h1><p>前面是或多或少有提过（或者用过）这个标签了(没有也得说有(* ￣︿￣))</p><p>之前用它只是用来连接网站，结果发现是超链接…</p><p>这个标签算是第一个接触的大多数情况得加属性的标签</p><p>那具体都会有那些属性呢…大概就是以下这三种啦( •̀ ω •́ )y</p><h4 id="herf"><a href="#herf" class="headerlink" title="herf"></a>herf</h4><p>使用起来很简单啦，只要往里面塞链接就好啦</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;a herf=&quot;https://lhzchh.github.io/“ target=&quot;_blank&quot;&gt;是自己的博客啦&lt;/a&gt;</span><br></pre></td></tr></table></figure><p>结果就差不多是这样是&lt;a herf=”<a href="https://lhzchh.github.io/%E2%80%9C">https://lhzchh.github.io/“</a> target=”_blank”&gt;是自己的博客啦</a>啦</p><p>当然，作为超链接，那他的表面就可以不仅是文字，图片等其他东西也可以被塞链接的，就像下面这样</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;a href=&quot;https://lhzchh.github.io/&quot;&gt;&lt;img src=&quot;https://s1.ax1x.com/2022/06/18/XOonde.png&quot; alt=&quot;XOonde.png&quot; border=&quot;0&quot; /&gt;&lt;/a&gt;</span><br></pre></td></tr></table></figure><p><a href="https://lhzchh.github.io/"><img src="https://s1.ax1x.com/2022/06/18/XOonde.png" alt="XOonde.png" border="0" /></a></p><p>用法差不多就是这样了（但也十分常用，在自己初学的时候根本只知道这个，完全不知道下面两个= =）</p>]]></content>
+    
+    
+    <summary type="html">更多更多的标签来啦
+这次准备试试看到什么写什么，当然该查的还是得查的OWO
+
+那就让我们开始吧(￣▽￣)”
+
+当然，这也是一个自用的笔记，如有失误希望能在评论中帮我指正，这对我有很大的帮助o(￣▽￣)ブ
+
+
+
+&lt; a &gt;标签
+前面是或多或少有提过（或者用过）这个标签了(没有也得说有(* ￣︿￣))
+
+之前用它只是用来连接网站，结果发现是超链接…
+
+这个标签算是第一个接触的大多数情况得加属性的标签
+
+那具体都会有那些属性呢…大概就是以下这三种啦( •̀ ω •́ )y
+
+herf
+使用起来很简单啦，只要往里面塞链接就好啦
+
+1
+
+
+&lt;a herf=&quot;https://lhzchh.github.i</summary>
+    
+    
+    
+    <category term="html的笔记" scheme="http://example.com/categories/html%E7%9A%84%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="瞎扯" scheme="http://example.com/tags/%E7%9E%8E%E6%89%AF/"/>
+    
+    <category term="自己的笔记" scheme="http://example.com/tags/%E8%87%AA%E5%B7%B1%E7%9A%84%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://example.com/2022/06/17/finale/"/>
+    <id>http://example.com/2022/06/17/finale/</id>
+    <published>2022-06-17T15:37:34.935Z</published>
+    <updated>2022-06-17T15:39:18.795Z</updated>
+    
+    <content type="html"><![CDATA[<p>考完试啦</p><p>但感觉又燥又空虚</p><p>不过最近肯定会把自己以前热爱的东西捡起来的o(<em>￣▽￣</em>)ブ</p><p>希望大家和自己多多期待一下吧OWO</p>]]></content>
+    
+    
+    <summary type="html">考完试啦
+
+但感觉又燥又空虚
+
+不过最近肯定会把自己以前热爱的东西捡起来的o(￣▽￣)ブ
+
+希望大家和自己多多期待一下吧OWO</summary>
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>决定</title>
@@ -187,7 +257,7 @@ html的格式化
     <link href="http://example.com/2021/08/21/daily/"/>
     <id>http://example.com/2021/08/21/daily/</id>
     <published>2021-08-21T06:52:56.000Z</published>
-    <updated>2021-08-21T06:57:51.465Z</updated>
+    <updated>2022-06-17T15:40:19.623Z</updated>
     
     <content type="html"><![CDATA[<h2 id=""><a href="#" class="headerlink" title=""></a><a href="https://imgtu.com/i/fvsCCR"><img src="https://z3.ax1x.com/2021/08/21/fvsCCR.png" alt="fvsCCR.png"></a></h2><h2 id="最近学会了html的样式"><a href="#最近学会了html的样式" class="headerlink" title="最近学会了html的样式"></a>最近学会了html的样式</h2><h2 id="但是没有时间写笔记了，那就下周再说吧ヾ-•ω•-o"><a href="#但是没有时间写笔记了，那就下周再说吧ヾ-•ω•-o" class="headerlink" title="但是没有时间写笔记了，那就下周再说吧ヾ(•ω•`)o"></a>但是没有时间写笔记了，那就下周再说吧ヾ(•ω•`)o</h2>]]></content>
     
@@ -200,7 +270,7 @@ html的格式化
     <category term="随便聊聊" scheme="http://example.com/categories/%E9%9A%8F%E4%BE%BF%E8%81%8A%E8%81%8A/"/>
     
     
-    <category term="-闲聊" scheme="http://example.com/tags/%E9%97%B2%E8%81%8A/"/>
+    <category term="闲聊" scheme="http://example.com/tags/%E9%97%B2%E8%81%8A/"/>
     
   </entry>
   

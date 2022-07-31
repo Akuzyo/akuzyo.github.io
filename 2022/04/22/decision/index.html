@@ -3,7 +3,8 @@
     <head>
   <!-- 元数据 -->
   <meta charset="utf-8">
-  <link rel="icon" href="...\images\logo.ico">
+  <link rel="icon" href="\images\logo.ico">
+  
   <title>决定 | Akuzyo的小岛</title>
   <meta name="author" content="Akuzyo" />
   <meta http-equiv="Cache-Control" content="no-transform" />
@@ -15,21 +16,20 @@
   
     <meta name="keywords" content="闲聊" />
   
-  <meta name="description" content="人生只是多个选择，无关对错，重要的是能够承受做出选择后的结果     最近的事情 先说说最近发生了什么吧  我这么长时间的断更，一是因为学业繁忙，没有太多的时间来更新了  其次是在尝试去建立自己的misskey实例，虽然建成了但服务器也欠费了（最近还很穷TAT）  最近发生的大事也就是这两件了，后面一件我会在后面单独说，这也是要写这些文字，或者说做出这个选择的原因  封校 总所周知，今年国内的疫情">
+  <meta name="description" content="需要密码的哦">
 <meta property="og:type" content="article">
 <meta property="og:title" content="决定">
 <meta property="og:url" content="http://example.com/2022/04/22/decision/index.html">
 <meta property="og:site_name" content="Akuzyo的小岛">
-<meta property="og:description" content="人生只是多个选择，无关对错，重要的是能够承受做出选择后的结果     最近的事情 先说说最近发生了什么吧  我这么长时间的断更，一是因为学业繁忙，没有太多的时间来更新了  其次是在尝试去建立自己的misskey实例，虽然建成了但服务器也欠费了（最近还很穷TAT）  最近发生的大事也就是这两件了，后面一件我会在后面单独说，这也是要写这些文字，或者说做出这个选择的原因  封校 总所周知，今年国内的疫情">
+<meta property="og:description" content="需要密码的哦">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="http://example.com/.../images/logo.ico">
+<meta property="og:image" content="http://example.com//images/logo.ico">
 <meta property="article:published_time" content="2022-04-21T17:29:14.000Z">
-<meta property="article:modified_time" content="2022-06-17T15:12:07.052Z">
+<meta property="article:modified_time" content="2022-07-29T16:59:56.413Z">
 <meta property="article:author" content="Akuzyo">
 <meta property="article:tag" content="闲聊">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://example.com/.../images/logo.ico">
-<meta name="twitter:site" content="@null">
+<meta name="twitter:image" content="http://example.com//images/logo.ico">
   
   <!-- 站点验证相关 -->
   
@@ -38,27 +38,44 @@
     
   
   <!-- 样式表文件 -->
-  <link rel="stylesheet" id="kratos-css" href="/css/kratosr.min.css" type="text/css" media="all">
+  <link rel="stylesheet" id="kratos-css" href="/css/kratosr.min.css" media="all"></script>
   
-    <link rel="stylesheet" id="highlight-css" href="/css/highlight/night-bright.min.css" type="text/css" media="all">
-  
-  
-  <link rel="stylesheet" id="fontawe-css" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" type="text/css" media="all">
-  <link rel="stylesheet" id="nprogress-css" href="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="darkmode-css" href="/css/kr-color-dark.min.css" media="(prefers-color-scheme: dark)"></script>
+    <script src="/js/kr-dark.min.js"></script>
   
   
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
+    <link rel="stylesheet" id="highlight-css" href="/css/highlight/night-blue.min.css" media="all"></script>
   
   
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+  <link rel="stylesheet" id="fontawe-css" href="/vendors/font-awesome@4.7.0/css/font-awesome.min.css" media="all"></script>
+  <link rel="stylesheet" id="nprogress-css" href="/vendors/nprogress@0.2.0/nprogress.css" media="all"></script>
   
   
-    <link rel="stylesheet" id="darkmode-css" href="/css/kr-dark.min.css" type="text/css" media="all">
+    <link rel="stylesheet" href="/vendors/aplayer@1.10.1/dist/APlayer.min.css"></script>
+  
+  
+    <link rel="stylesheet" href="/vendors/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"></script>
   
   <!-- 不得不预先加载的一些JS文件 -->
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+  <script src="/vendors/jquery@3.6.0/dist/jquery.min.js"></script>
   
-    <script src="https://cdn.jsdelivr.net/npm/qrcode_js@1.0.0/qrcode.min.js"></script>
+    <script src="/vendors/qrcode_js@1.0.0/qrcode.min.js"></script>
+  
+  
+  <style>
+    
+      .kratos-cover.kratos-cover-2 {
+        background-image: url('/images/banner.webp');
+      }
+    
+    
+      @media(min-width:768px) {
+        body.custom-background {
+          background-image: url('/images/bg.webp');
+        }
+      }
+    
+  </style>
   
 <meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="Akuzyo的小岛" type="application/atom+xml">
 </head>
@@ -75,34 +92,37 @@
                             <ul id="kratos-primary-menu" class="sf-menu">
                                 
                                     
-                                        <li><a href="/"><i class="fa fa-home"></i>首页</a></li>
                                     
-                                
+                                        
+                                            <li><a href="/"><i class="fa fa-home"></i>首页</a></li>
+                                        
                                     
-                                        <li><a href="/archives/"><i class="fa fa-file"></i>档案馆</a></li>
+                                        
+                                            <li><a href="/archives/"><i class="fa fa-file"></i>档案馆</a></li>
+                                        
                                     
-                                
+                                        
+                                            <li><a href="/friends/"><i class="fa fa-paw"></i>好伙伴</a></li>
+                                        
                                     
-                                        <li><a href="/friends/"><i class="fa fa-paw"></i>好伙伴</a></li>
-                                    
-                                
-                                    
-                                        <li>
-                                            <a><i class="fa fa-genderless"></i>关于..</a>
-                                            <ul class="sub-menu">
-                                                
+                                        
+                                            <li>
+                                                <a><i class="fa fa-genderless"></i>关于..</a>
+                                                <ul class="sub-menu">
                                                     
-                                                
+                                                        
                                                     
-                                                        <li><a href="/self/">自己</a></li>
+                                                        
+                                                            <li><a href="/self/">自己</a></li>
+                                                        
                                                     
-                                                
+                                                        
+                                                            <li><a href="/website/">这个网站</a></li>
+                                                        
                                                     
-                                                        <li><a href="/website/">这个网站</a></li>
-                                                    
-                                                
-                                            </ul>
-                                        </li>
+                                                </ul>
+                                            </li>
+                                        
                                     
                                 
                             </ul>
@@ -144,21 +164,25 @@
 
         
 
-            <article>
+            <article itemscope itemtype="https://schema.org/Article">
+    
+    <link itemprop="mainEntityOfPage" href="http://example.com/2022/04/22/decision/">
     <div class="kratos-hentry kratos-post-inner clearfix">
         <header class="kratos-entry-header">
             
-                <h1 class="kratos-entry-title text-center">决定</h1>
+                <h1 class="kratos-entry-title text-center" itemprop="name headline">决定</h1>
             
             
             <ul class="kratos-post-meta text-center">
-                <li><i class="fa fa-calendar"></i> 2022-04-22</li>
-                <li><i class="fa fa-user"></i> 作者 Akuzyo</li>
+                <li><time datetime="2022-04-21T17:29:14.000Z" itemprop="datePublished"><i class="fa fa-calendar"></i> 2022-04-22</time></li>
+                <li itemprop="author" itemscope itemtype="https://schema.org/Person">
+                    <i class="fa fa-user"></i> 作者 <span itemprop="name">Akuzyo</span>
+                </li>
                 <li>
                     <i class="fa fa-edit"></i> 
                     
                     
-                        910
+                        ~7.80K
                     
                     字
                 </li>
@@ -172,75 +196,33 @@
             </ul>
         </header>
         <div class="kratos-post-content">
+            
             <div id="expire-alert" class="alert alert-warning hidden" role="alert">
-                本文最后编辑于 <time datetime="1655478727052"></time> 前，其中的内容可能需要更新。
+                <div class="icon"><i class="fa fa-warning"></i></div>
+                <div class="text"><p>本文最后编辑于 <time datetime="1659113996413"></time> 前，其中的内容可能需要更新。</p></div>
             </div>
             
+            
             <hr />
-            <blockquote>
-<p>人生只是多个选择，无关对错，重要的是能够承受做出选择后的结果</p>
-</blockquote>
-<hr>
-<h4 id="最近的事情"><a href="#最近的事情" class="headerlink" title="最近的事情"></a>最近的事情</h4><p>先说说最近发生了什么吧</p>
-<p>我这么长时间的断更，一是因为学业繁忙，没有太多的时间来更新了</p>
-<p>其次是在尝试去建立自己的misskey实例，虽然建成了但服务器也欠费了（最近还很穷TAT）</p>
-<p>最近发生的大事也就是这两件了，后面一件我会在后面单独说，这也是要写这些文字，或者说做出这个选择的原因</p>
-<h4 id="封校"><a href="#封校" class="headerlink" title="封校"></a>封校</h4><p>总所周知，今年国内的疫情形势不怎么乐观，我们这边的城市也是这样</p>
-<p>封校来的太突然，以至于我们这些跑校生根本没有做好太多准备</p>
-<p>而在这次封校中，表现的最强烈的应该是我了</p>
-<p>学习的效率降了一大半，天天在骂学校（虽然这改变不了什么，其根本原因别人都在家，我们也在这里快封了三周了），当然最根本的是<strong>与集体生活的格格不入</strong></p>
-<p>我在高中之前可以说是从来没有住过校，所以也习惯了自己在家里一个人默默的学习，而且还会有更多的时间去分(duo)配(xue)时(ying)间(yu)，但当然不会有学校那样的氛围</p>
-<p>但是如果在住校方面的话，自己会很浮躁，上课也天天睡觉，学校开设的”夜自习室”也并没没有太大动力去，感觉自己就是浑浑噩噩度过了好几天，虽然学校也在尽最大的力来帮助我，但我仍然还是浮躁</p>
-<p>而在这段休息的时间里，我有两个选择，一个是在家里自学，而另一个是回到学校继续这么过日子</p>
-<h6 id="这是一道送命的选择题"><a href="#这是一道送命的选择题" class="headerlink" title="这是一道送命的选择题"></a>这是一道送命的选择题</h6><h4 id="对比"><a href="#对比" class="headerlink" title="对比"></a>对比</h4><p><strong>自学</strong></p>
-<p>优点</p>
-<ul>
-<li><p>更佳的精神状态/动力</p>
-</li>
-<li><p>较自由的时间分配</p>
-</li>
-<li><p>更多的信息来源</p>
-</li>
-<li><p>更容易适应的个人生活</p>
-</li>
-</ul>
-<p>缺点</p>
-<ul>
-<li><p>易分心</p>
-</li>
-<li><p>没有线下的指导</p>
-</li>
-<li><p>需要更大的精力去找题</p>
-</li>
-</ul>
-<p><strong>返回学校</strong></p>
-<p>优点</p>
-<ul>
-<li><p>有线下的指导和配套的题目</p>
-</li>
-<li><p>对弱势科目可以很好地兼顾</p>
-</li>
-<li><p>学习的良好氛围</p>
-</li>
-</ul>
-<p>缺点</p>
-<ul>
-<li><p>不佳的状态</p>
-</li>
-<li><p>难以适应的集体生活和“规章制度”</p>
-</li>
-</ul>
-<h2 id="结果"><a href="#结果" class="headerlink" title="结果"></a>结果</h2><p>对于我来说，2020年的网课给我留下很深的回忆</p>
-<p>当然并不是很糟的一面，我很喜欢这样的时光，也或多或少影响了我的奇怪的观念</p>
-<p>所以结果…我还是想在家里呆一会</p>
-<p>就算是落下了也没有太大关系，因为这是我自己的选择，也应该承担我应该要承担的后果</p>
-<h2 id="初感受"><a href="#初感受" class="headerlink" title="初感受"></a>初感受</h2><p>既然做出这个选择，就一直走下去就可以了</p>
-<p>第一天感觉还不错，希望能坚持到开学</p>
-<h3 id="一如既往，再次感谢你能看到最后╰-￣ω￣o"><a href="#一如既往，再次感谢你能看到最后╰-￣ω￣o" class="headerlink" title="一如既往，再次感谢你能看到最后╰(￣ω￣ｏ)"></a>一如既往，再次感谢你能看到最后╰(￣ω￣ｏ)</h3>
+            <div itemprop="articleBody"><div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="470aeeb85d06d415a08bfaa258fd7b55df98c949ef637a5b1f5f03520d8eb888">56d27b4c220949e5d26006d961005356e67f6023e1f04a1d9f521234fb5bb50d0bdadd6f6b99722ee49f0a6d3b7a00348024b9216658cd4e1975bf5d1f250c06bb36fa3418442d7902b6ac63f714374795fd2ff9a0bb07a22ab64f3fd653a71211e5fd1f908a1b8b49aece995bd0a4b1727a1c58fa038436865daef67d3e12f5ccec4ed77ffd2dd895f52869f3fc9f05d42ef80cf690e82296904e331b5eb667909f75c71981ea38ee16c71669c86d82d42bb47d98e98d0eccc6575aa5f6f91ebb69daa395d14346e4b4746a58f160e65c6d702b4aa7deb68e0fc40e0ea05b790170ccfe3851bfc6f6040da8605d1f8eb77a1a7ecbebfee16f9f65c8ed6edaf145540f047a2acd9683464378d2045e4a95b977615d581ee0b91014b73fe44b5b3427909c362bb8cba596f5fefa762ad36483a1e2386736ea8eff45b389f9d50957702254379ba3aee7e88a610c7e2562fefa112adcf7c19dc4cd2995cdfb1d8bfdaa908199b563df558d980163423551fead57f5a4fea5f95e1605fac806896235a508678f31dab91b644ade8039a2b7005e8b593e207171fe4bd06054dd9979955240c1545b5e418e739cf49754dd0925405bfb71d5794e240ddc84a33cfd315108cd4ee72ac1bbff3352d2d67ddbb422550320b06c9fe2e37fb1dae4f02b3504b9a48b6ee947ed166cbbbc8aa81f7c8db2d4ae25a4f49192784980fadd3090889ae590ebd51ba4c5b673e6f9db484beb51f800f360a213c832b2660a600932dfd8c4dabb61e623f7280b5b2dc98c458b506d6fb13cc86ca6fa7ce27aa24948420e73c28cab6915e7aada75e985fd98661232960f4ba45f3a4156b61e208e3e1050d038b45915124fc6ba255da6a050817b7e90b8a763264bbe43890985d5067e5185f8901a7d086ce9a84a8661802ad7012cb74876783063896f3e3bba4eed3bd00786672bcc33b51220a0eb8cf59394b1e8f6a1e6017d73723c2f7ecfb5c09e55011e0c6974ba641ec2aef492ff3dbcb0e22d704467326bc9626567fafede4769bbe5bdfd2a2cf052a5c6a6e9398ca265c2a804b3b51afb37ac38430808f0789b2cf1cb84643a4a5226598315f1e100725c383769a1c30436c39963fabb97752ed81c8ae07d629d0fa57a9b4285e34f24c80f5580401384f033d2cde93d1ee5994baedc89e6901164c049121e8a735888be4fd75c5868b3aead86afb2c48ab9da90a496c57f26e407bc77218e4ac8e7fbf4b3bc4306a9596135bb348a4b495dcfdc68239b4676bc23327a438caf033051eadfdea9dc0c287d0ba8a751101c594c18a66a2466709e50ba16c24d5ee810040af5afb6246369cf577ac6762d7c262f5a84ac29dd35323ce5949618f7a410571f2550b8e7e4e4d05906f875e7bdc6063c0e94289775c4c612b7f0f617898fa4df7fd0a22206e94b76d5ab430e4a65fe17f717625327a66c33cadf604ffd1283d3e2603131e092b2812e5bb05872fa5627b6852a302016fa05851f2c1bc2c529cda3025e393801bb83ee07342858b2d526d14ff2961811e1a530b1ccd622bb7ce321f37fd74baa325faefaa02fcfcda8cb71061cb92823ea58a5e73d775cb0f0eef9f2334c1b9da9559eea870ba0101938a5e3212270bf438900a59f0142588da39b53433ff3b51ab57c8557bff2bf64ab9c24b945f6123115d5e8dab63d41fdccc3db664ca9c7949d5a2488402bbe8dc230d041bae32f093d2aac51154d08071b588e782c68dd640cf8888c150bccb2ae34f9407168ccd27b6b62b22e38fe030ca7d2cab6ed6a63dac3aff5c92e2da7296a73a157a4c8eefd287823639f6b3fd3ea1c1b24480925dacb79adc9f89d5ce84110114c4a229be23c19d830936c3def1b17592a813e622b3aebb9b9e375ef63c493f2854dfeaaa91ca88c729f4cfbb8417c5de930147e323458b3133cf41fa153b95fe0d7ea958f65115b42c222eca9fa3d6d922c457c5fe0361d5ea133df0bd564383448887b03f28cb7a07cde16c6bd574df6ed4026fc01271fabd1db07f326bc1a0e94ec8b70174ac78d51b580169fc5529875dd7e7b99e32e4c0d55f3120221d555b28c2c866b2b1fd27f3cf3f2bde4f56defc6ff54fe33dbaa9e6e3e44c02232919c731266af86a16bd0074814646ee8776243fe1fe2d06a43ca91a8c182a026d5694c88bdd6ec2fd5d3f97a8d015503f7774c47787f5ac5e7eba94dd757793266f7f5b92713ef40fe4cc4e18b65d9b91fe9e757052e9290643482d2a38b383ecdfc472c177239fc583a7d72d64139fc6c3f4fd9ce4cf85baabb1f7cd4231fe175b726507d317d8edb425f648b655e610b05415c07c3b94c39c931377b69ef4b6a1cc7f53ef7a4683a66388a91cc512c94c232a58bb2ff16f73386b84c1cfff259d6022679016acd837e7211b67f0ffe14f0368ec6d2026183e8ec987a457d8f7055d828608e558a0ab24013d16b6c7ce0dc536b79eaa75aa23a0269953d4ee4999a358fc94666d6592c8efcb8880b3b23e1abd2561660d3725b84402b44da7f0fdc1094b02642ec2e44689375b010f7bb3bab435ca601c1f48810c636d9f708f0a7cc69ae73e2105e2308265f3191dc9242c4d48aa76364ac768602d657c45518dda93cf3fcc2ec40b4f6d111e702fe7462f5c5d39790723c67ca472f914f78be31f7b608cf421adcf16772b0f4026df466d7e675168585a58c9259c0000f26b1e0e5d3e3f4c8e7a49962318bd5937ec4559c8d7741b174e5cea69387bba4eebf924f675daef2f0b253e52fd49200e7c76e2fba541feb58993cf21a45ea7f697d55cb4859b5409008207a4eabd3925acdf6fc95ccf485166161212068dfed71a6419f250501e123bde1ec650a763042bfc39ba898447d78ad409587fb127ee17a0a9788e559ec2b46bca97d0e8acc1bdcb3fa65c032313d781b373d729e2054a10204bbcfeaee4ac572eb085bfa0de4d6ec883ec14d07b5dd21380e18383daa1a8454aaab60c7eadc2e3a60e029b3a7107afcd26089a345510d50f3c6b31b1e23530037260bc5cfda535b3207bd0dcf8d8df0fb26e1e3b42b19fdb5e69c5cea4dcf47da33b0c079f330f3a7538093fba985de2ffea7c17b88863c9f3389643acaf1d443b463f0c23943ad66b7e97ab5335f325a6fb5f6e504ff9c1012786499a08857563c3589ed7f16fb019743e914db042f7fb11e9ed08fc8e32ac6d1837428e8c6fed7b4eb3406ab20a8bffdf4564898e936573a108cfb0b54c0cefdbf9aad3e6f23ae04f65074ffac5ccb4762a9b949ca334109c319ede12df133550fdb7c1a0af282340db42f084d78242daceb278a6d5ec07e171140dc8458299c4aedc7b1d2f4e2a2776cd4bd8e261a52e29623f962e9a842a6916f8c8ba16915b0ed9e0029fc4b9a1575c179dae03b0d323a334e48d46a6a3d981fd96e93e78d35aef8ca002109411fa83f19fada5d0e7f3e05f74365c218dccfd6074711e00107675928a8298a6bcf49b43f3d90ba3dceb3857d8733493ad6e0d2dc6d004baf79908643ecbf324a66fa563192242c36910bc60d32841a86991a11c7d4f4fb087d6895779ef1d733733362966fed8ff93a2d8fb2ff87ee845a8a9dec0eea0ff294e0edd6cdd6c9ab8c9f8c94fdb302caa6176104eb8ede7d79340b1dc7b90138e8e5a1e1a167547a12e6401dbd84f5d81bfe638021d8ab5d92f922603894a1f73cf19f2945a8fc489ef7a4c75ba98289ad9d6cc9043a67b45c2d64e91df3597e82cedd4591115d7a2ad3c3bb424026a123418b0fd93f3606d758fe665d9cf7b19384ba2d9d03ef16cb1a1d21463c38a9d8d718f11fe5435f166853b391fc63535f602e47548c8c34e60e8be18b59a3154273a6d53c744011dfabd2a3ad4eab03139163c3dd668e2e2dac68fded4bb68a870bc2d5fcab58bcb49d8bc367db09a6ffaa6f5335d7daddea48182d7e03b034e04df5e6cc971527e4bb64701d7a0bb5341b1a130b1caa046f11c5fd89f981aa4b42a3c293d6a9bc3aa0b2fa6fef374daeef99acd0ee605da9a729e7ee2a785670728642aa13ef6a93137b8512a5eb13497f7963dba106d426451bb4ab2851d40e6f80220adb31008a80fa021052977b1292dcad44a79422f4fe2f517dfdd29f8af3a837eaf606e40f2daeae87cbf2a49d420d4f9649bb5bff6ef26e1a80f2393f70e429ed5be6018f2b12e56eafade56f709ca7d927b5936710ba4b1219bb1d596f437272b399ed6d96aa6d3ee6881be486ebf9e9365dff45955b0903eafa0c973de4299282e4d820cd16a716307bbb22d473de126db7c4fc7082ad4bacfc27cd1e71cfa90102de0a112f3d090bb60f4a9416ce7d2777e0cee7d543af177ca7b1f6152fbff02e77a1c19af2129ed0a26448712d2261f186acbc6ed7ad53d7a3806ac7af12ea6cc1ebf1a0aa2fffa31545e39bc42c8dbbc323c8bc9173ec2b860784a8ef70d9a8e01fce057f1875090573279ffcc7a3211b0a0b5043f1a1c11f4cc59a17cf52eacb516315de73df0d2c0bb8bb040b1a9ef92bceaf773449e8a38c71fb4ce5ee893bdeb7e8b37f26d7d9657cc7acbfacae33d7a19fa105e1245b90f7c2166032f06b37d7e227a6729be72acd62e4d4289559c1faf943e702e9ebc4491db30e53286f91e2d1b7f08117e26cfd6ed3a7ca56961b6cbaf89d038a443e27bbfffc38b16cf2c0cc9073f529bdc7ae8609238e1a8aaf5a6a05ec61f0a59b4193857900e36861e6d93aa3e7ca4cc9a97fee2383a62d639c486d4110c2cabd5672c10eddcacd991e493c2801b57bf2bec6ee7438bb8c66b215ed7fa3ad01ef7492ab95ee7ab8e1ecf8a38c06e71b7a9d07f05d984345def3aa9c57226f77f4c8e3ff9bdae75aa42da32e222a64dd1af653fffe6d28d114fc0fbe7031b289c45057db38d5099d998ed3e286b6c2d286f16d71326860d3cc3e2f6e6f86e6836745e9b2229decf7cd83b44f93767d686320560252419d32d0541c4879a32d303995a88ef973e66da851a107556711a8c40f7bde523c908f696aa7708ebd1221a2f8afdf33aa95c9ce6dcfe49b5716f08bdb09707974d5e3d50a7f3536768c2493192148b9feb8b8ed4bfef6204d6f3a1b10787079bd7e1e2776cf3534f2c6a536af9759ba69be137ad3cca63bcb50a02b5622171934e577bfc3b96cef0697740640a4a9bd92175693c70f2cd8816a2cf271b78b3cf3932377ba6269984b57d797acf9674e48384007d67cb6d5d45c21cb6241fcae118671e01c5994c91c1d101b03d15d7f402704f8a92334fef7d5f64c1fec2aaffeef853e82cf0f4d11ea4b1449042921efd0c813e4f5fc8c42e33589d0aca9d76f65fbe0596d7f047d36cce506676536692ec69cefeeed9dd7930672f112c4269ac13851e8d4b11627781b2328e9270a3861cbfc996c3c8481a1350326222001135510b121e1b7</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-wave">
+      <input class="hbe hbe-input-field hbe-input-field-wave" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-wave" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-wave">还是一条怎么想都不会后悔的路呢</span>
+      </label>
+      <svg class="hbe hbe-graphic hbe-graphic-wave" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+        <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>
+      </svg>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css"></div>
         </div>
         
             <div class="kratos-copyright text-center clearfix">
-                <h5>本作品采用 <a rel="license nofollow" target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/">知识共享署名-相同方式共享 4.0 国际许可协议</a> 进行许可</h5>
+                <h5 itemprop="copyrightNotice">本作品采用 <a rel="license nofollow" target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/">知识共享署名-相同方式共享 4.0 国际许可协议</a> 进行许可</h5>
             </div>
         
         <footer class="kratos-entry-footer clearfix">
@@ -303,28 +285,7 @@
             const twitterBase   = "https://twitter.com/intent/tweet?";
             const hostUrl       = "http://example.com/2022/04/22/decision/";
             const title         = "「决定」";
-            const excerpt       = `人生只是多个选择，无关对错，重要的是能够承受做出选择后的结果
-
-
-
-
-最近的事情
-先说说最近发生了什么吧
-
-我这么长时间的断更，一是因为学业繁忙，没有太多的时间来更新了
-
-其次是在尝试去建立自己的misskey实例，虽然建成了但服务器也欠费了（最近还很穷TAT）
-
-最近发生的大事也就是这两件了，后面一件我会在后面单独说，这也是要写这些文字，或者说做出这个选择的原因
-
-封校
-总所周知，今年国内的疫情形势不怎么乐观，我们这边的城市也是这样
-
-封校来的太突然，以至于我们这些跑校生根本没有做好太多准备
-
-而在这次封校中，表现的最强烈的应该是我了
-
-学习的效率降了一大半，天天在骂学校（虽然这改变不了什么`;
+            const excerpt       = `需要密码的哦`;
             let _URL;
             switch (dest) {
                 case "qq"       : _URL = qqBase+"url="+hostUrl+"&title="+title+"&desc=&summary="+excerpt+"&site=cxpy";     break;
@@ -346,7 +307,7 @@
                     <a class="tag-none-link" href="/tags/%E9%97%B2%E8%81%8A/" rel="tag">闲聊</a>
                 </div>
                 <div class="pull-date">
-                <span>最后编辑：2022-06-17</span>
+                    <time datetime="2022-07-29T16:59:56.413Z" itemprop="dateModified">最后编辑：2022-07-30</time>
                 </div>
             </div>
         </footer>
@@ -379,8 +340,8 @@
                 path: '/2022/04/22/decision/'
             });
         }
-        if (typeof Valine == 'undefined') {
-            const src = 'https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js';
+        if (typeof Valine === 'undefined') {
+            const src = '/vendors/valine@1.4.18/dist/Valine.min.js';
             $.getScript(src, init);
         } else {
             init();
@@ -409,7 +370,7 @@
     <div class="photo-background"></div>
     <div class="photo-wrapper clearfix">
         <div class="photo-wrapper-tip text-center">
-            <img class="about-photo" src="/images/avatar.webp" />
+            <img class="about-photo" src="/images/avatar.webp" loading="lazy" decoding="auto" />
         </div>
     </div>
     <div class="textwidget">
@@ -420,6 +381,32 @@
             
         </p>
     </div>
+    <div class="site-meta">
+        <a class="meta-item" href="/archives/">
+            <span class="title">
+                文章
+            </span>
+            <span class="count">
+                12
+            </span>
+        </a>
+        <a class="meta-item" href="/categories/">
+            <span class="title">
+                分类
+            </span>
+            <span class="count">
+                4
+            </span>
+        </a>
+        <a class="meta-item" href="/tags/">
+            <span class="title">
+                标签
+            </span>
+            <span class="count">
+                8
+            </span>
+        </a>
+    </div>
 </aside>
             
                     <div class="sticky-area">
@@ -427,7 +414,7 @@
                 
   <aside id="krw-categories" class="widget widget-kratos-categories clearfix">
     <h4 class="widget-title"><i class="fa fa-folder"></i>分类目录</h4>
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/html%E7%9A%84%E7%AC%94%E8%AE%B0/">html的笔记</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%85%B3%E4%BA%8E%E6%B8%B8%E6%88%8F/">关于游戏</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%89%8B%E6%9C%BA/">手机</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E9%9A%8F%E4%BE%BF%E8%81%8A%E8%81%8A/">随便聊聊</a><span class="category-list-count">4</span></li></ul>
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/html%E7%9A%84%E7%AC%94%E8%AE%B0/">html的笔记</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%85%B3%E4%BA%8E%E6%B8%B8%E6%88%8F/">关于游戏</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%89%8B%E6%9C%BA/">手机</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E9%9A%8F%E4%BE%BF%E8%81%8A%E8%81%8A/">随便聊聊</a><span class="category-list-count">4</span></li></ul>
   </aside>
 
 
@@ -436,7 +423,7 @@
   <aside id="krw-tags" class="widget widget-kratos-tags clearfix">
     <h4 class="widget-title"><i class="fa fa-tags"></i>标签聚合</h4>
       <div class="tag-clouds">
-        <a href="/tags/2022%E5%B9%B4%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/" style="font-size: 0.6em;">2022年的第一篇文章</a> <a href="/tags/%E6%8A%98%E8%85%BE%E6%8E%8C%E6%9C%BA/" style="font-size: 0.6em;">折腾掌机</a> <a href="/tags/%E6%95%99%E7%A8%8B/" style="font-size: 0.6em;">教程</a> <a href="/tags/%E6%97%85%E8%A1%8C/" style="font-size: 0.6em;">旅行</a> <a href="/tags/%E7%9E%8E%E6%89%AF/" style="font-size: 0.8em;">瞎扯</a> <a href="/tags/%E8%87%AA%E5%B7%B1%E7%9A%84%E7%AC%94%E8%AE%B0/" style="font-size: 0.7em;">自己的笔记</a> <a href="/tags/%E9%97%B2%E8%81%8A/" style="font-size: 0.8em;">闲聊</a> <a href="/tags/%E9%9A%8F%E4%BE%BF%E8%81%8A%E8%81%8A/" style="font-size: 0.6em;">随便聊聊</a>
+        <a href="/tags/2022%E5%B9%B4%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/" style="font-size: 0.6em;">2022年的第一篇文章</a> <a href="/tags/%E6%8A%98%E8%85%BE%E6%8E%8C%E6%9C%BA/" style="font-size: 0.6em;">折腾掌机</a> <a href="/tags/%E6%95%99%E7%A8%8B/" style="font-size: 0.6em;">教程</a> <a href="/tags/%E6%97%85%E8%A1%8C/" style="font-size: 0.6em;">旅行</a> <a href="/tags/%E7%9E%8E%E6%89%AF/" style="font-size: 0.8em;">瞎扯</a> <a href="/tags/%E8%87%AA%E5%B7%B1%E7%9A%84%E7%AC%94%E8%AE%B0/" style="font-size: 0.7em;">自己的笔记</a> <a href="/tags/%E9%97%B2%E8%81%8A/" style="font-size: 0.7em;">闲聊</a> <a href="/tags/%E9%9A%8F%E4%BE%BF%E8%81%8A%E8%81%8A/" style="font-size: 0.6em;">随便聊聊</a>
       </div>
   </aside>
 
@@ -447,6 +434,12 @@
   <div class="tab-content">
       <ul class="list-group">
         
+        
+          
+          
+            <a class="list-group-item" href="/2022/06/18/More-and-More/"><i class="fa  fa-book"></i> html中的超链接标签</a>
+            
+          
         
           
           
@@ -476,11 +469,7 @@
           
         
           
-          
-            <a class="list-group-item" href="/2021/08/21/daily/"><i class="fa  fa-book"></i> 学会了一些新的html标签和属性ヾ(≧ ▽ ≦)ゝ</a>
             
-          
-        
           
             
           
@@ -504,26 +493,6 @@
 </div>
 <footer>
     <div id="footer"  class="ap-lrc"  >
-        <div class="kr-tool text-center">
-            <div class="tool">
-                
-                    <div class="box search-box">
-                        <a href="/search/">
-                            <span class="fa fa-search"></span>
-                        </a>
-                    </div>
-                
-                
-                    <div class="box theme-box" id="darkmode-switch">
-                        <span class="fa fa-adjust"></span>
-                    </div>
-                
-                
-            </div>
-            <div class="box gotop-box">
-                <span class="fa fa-chevron-up"></span>
-            </div>
-        </div>
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-md-offset-3 footer-list text-center">
@@ -534,7 +503,7 @@
                         
                         
                         
-                        <li><a target="_blank" rel="me" href="https://nya.one/@Candinya"><i class="fa fa fa-share-alt-square"></i></a></li>
+                        
                         
                         
                     </ul>
@@ -559,20 +528,49 @@
                 </div>
             </div>
         </div>
+        <div class="kr-tool text-center">
+            <div class="tool">
+                
+                    <div class="box search-box">
+                        <a href="/search/">
+                            <span class="fa fa-search"></span>
+                        </a>
+                    </div>
+                
+                
+                    <div class="box theme-box" id="darkmode-switch">
+                        <span class="fa fa-adjust"></span>
+                    </div>
+                
+                
+            </div>
+            <div class="box gotop-box">
+                <span class="fa fa-chevron-up"></span>
+            </div>
+        </div>
     </div>
 </footer>
 </div>
 </div>
 
-        <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.4/dist/js/bootstrap.min.js"></script>
-<script defer src="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.js"></script>
-<script>const notMobile = (!(navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i)));</script>
+        <script defer src="/vendors/bootstrap@3.3.4/dist/js/bootstrap.min.js"></script>
+<script defer src="/vendors/nprogress@0.2.0/nprogress.js"></script>
+<script>
+    if (!window.kr) {
+        window.kr = {};
+    }
+    window.kr.notMobile = (!(navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i)));
+    window.kr.siteRoot = "/";
+</script>
 
-<script async src="/js/candy.min.js"></script>
 
-    <script defer src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
+    <script async src="/js/candy.min.js"></script>
+
+
+
+    <script defer src="/vendors/aplayer@1.10.1/dist/APlayer.min.js"></script>
     
-    <script defer src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+    <script defer src="/vendors/meting@2.0.1/dist/Meting.min.js"></script>
     <meting-js
         server="netease"
         type="playlist"
@@ -584,14 +582,11 @@
 
 
 
-    <script defer src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script defer src="/vendors/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 
-<script defer src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script>
+<script defer src="/vendors/clipboard@2.0.6/dist/clipboard.min.js"></script>
 <script defer src="/js/kratosr.min.js"></script>
 <script defer src="/js/pjax.min.js"></script>
-
-
-    <script defer src="/js/kr-dark.min.js"></script>
 
 
 

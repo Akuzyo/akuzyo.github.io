@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="zh_CN">
+    <head>
+  <!-- 元数据 -->
+  <meta charset="utf-8">
+  <link rel="icon" href="\images\logo.ico">
+  
+  <title>html中的超链接标签 | Akuzyo的小岛</title>
+  <meta name="author" content="Akuzyo" />
+  <meta http-equiv="Cache-Control" content="no-transform" />
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="robots" content="index,follow" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta name="format-detection" content="telphone=no, email=no" />
+  
+    <meta name="keywords" content="瞎扯, 自己的笔记" />
+  
+  <meta name="description" content="这次准备试试看到什么写什么，当然该查的还是得查的OWO  那就让我们开始吧(￣▽￣)”  当然，这也是一个自用的笔记，如有失误希望能在评论中帮我指正，这对我有很大的帮助o(￣▽￣)ブ    前面是或多或少有提过（或者用过）这个标签了(没有也得说有(* ￣︿￣))  之前用它只是用来连接网站，结果发现是超链接…  什么，你问我什么是超链接吗？嗯…PPT里就有超链接啊，难道没有玩过吗？  这个标签算是">
+<meta property="og:type" content="article">
+<meta property="og:title" content="html中的超链接标签">
+<meta property="og:url" content="http://example.com/2022/06/18/More-and-More/index.html">
+<meta property="og:site_name" content="Akuzyo的小岛">
+<meta property="og:description" content="这次准备试试看到什么写什么，当然该查的还是得查的OWO  那就让我们开始吧(￣▽￣)”  当然，这也是一个自用的笔记，如有失误希望能在评论中帮我指正，这对我有很大的帮助o(￣▽￣)ブ    前面是或多或少有提过（或者用过）这个标签了(没有也得说有(* ￣︿￣))  之前用它只是用来连接网站，结果发现是超链接…  什么，你问我什么是超链接吗？嗯…PPT里就有超链接啊，难道没有玩过吗？  这个标签算是">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com//images/logo.ico">
+<meta property="article:published_time" content="2022-06-18T15:33:15.000Z">
+<meta property="article:modified_time" content="2022-07-31T16:22:09.183Z">
+<meta property="article:author" content="Akuzyo">
+<meta property="article:tag" content="瞎扯">
+<meta property="article:tag" content="自己的笔记">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com//images/logo.ico">
+  
+  <!-- 站点验证相关 -->
+  
+    
+    
+    
+  
+  <!-- 样式表文件 -->
+  <link rel="stylesheet" id="kratos-css" href="/css/kratosr.min.css" media="all"></script>
+  
+    <link rel="stylesheet" id="darkmode-css" href="/css/kr-color-dark.min.css" media="(prefers-color-scheme: dark)"></script>
+    <script src="/js/kr-dark.min.js"></script>
+  
+  
+    <link rel="stylesheet" id="highlight-css" href="/css/highlight/night-blue.min.css" media="all"></script>
+  
+  
+  <link rel="stylesheet" id="fontawe-css" href="/vendors/font-awesome@4.7.0/css/font-awesome.min.css" media="all"></script>
+  <link rel="stylesheet" id="nprogress-css" href="/vendors/nprogress@0.2.0/nprogress.css" media="all"></script>
+  
+  
+    <link rel="stylesheet" href="/vendors/aplayer@1.10.1/dist/APlayer.min.css"></script>
+  
+  
+    <link rel="stylesheet" href="/vendors/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"></script>
+  
+  <!-- 不得不预先加载的一些JS文件 -->
+  <script src="/vendors/jquery@3.6.0/dist/jquery.min.js"></script>
+  
+    <script src="/vendors/qrcode_js@1.0.0/qrcode.min.js"></script>
+  
+  
+  <style>
+    
+      .kratos-cover.kratos-cover-2 {
+        background-image: url('/images/banner.webp');
+      }
+    
+    
+      @media(min-width:768px) {
+        body.custom-background {
+          background-image: url('/images/bg.webp');
+        }
+      }
+    
+  </style>
+  
+<meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="Akuzyo的小岛" type="application/atom+xml">
+</head>
+
+
+    <body class="custom-background">
+        <div id="kratos-wrapper">
+    <div id="kratos-page">
+        <div id="kratos-header">
+            <header id="kratos-desktop-topnav" class="kratos-topnav">
+                <div class="container">
+                    <div class="nav-header">
+                        <nav id="kratos-menu-wrap">
+                            <ul id="kratos-primary-menu" class="sf-menu">
+                                
+                                    
+                                    
+                                        
+                                            <li><a href="/"><i class="fa fa-home"></i>首页</a></li>
+                                        
+                                    
+                                        
+                                            <li><a href="/archives/"><i class="fa fa-file"></i>档案馆</a></li>
+                                        
+                                    
+                                        
+                                            <li><a href="/friends/"><i class="fa fa-paw"></i>好伙伴</a></li>
+                                        
+                                    
+                                        
+                                            <li>
+                                                <a><i class="fa fa-genderless"></i>关于..</a>
+                                                <ul class="sub-menu">
+                                                    
+                                                        
+                                                    
+                                                        
+                                                            <li><a href="/self/">自己</a></li>
+                                                        
+                                                    
+                                                        
+                                                            <li><a href="/website/">这个网站</a></li>
+                                                        
+                                                    
+                                                </ul>
+                                            </li>
+                                        
+                                    
+                                
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+            <header id="kratos-mobile-topnav" class="kratos-topnav">
+                <div class="container">
+                    <div class="color-logo"><a href="/">Akuzyo的小岛</a></div>
+                    <div class="nav-toggle">
+                        <a class="kratos-nav-toggle js-kratos-nav-toggle">
+                            <i></i>
+                        </a>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <div class="kratos-start kratos-hero-2">
+            <!-- <div class="kratos-overlay"></div> -->
+            <div class="kratos-cover kratos-cover-2 text-center">
+                <div class="desc desc2 animate-box">
+                    <a href="/">
+                        <h2>Akuzyo的小岛</h2> <br />
+                        <span>A Dream Traveler</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div id="kratos-blog-post">
+            <div class="container">
+                <div id="main" class="row">
+                    
+
+        
+
+            <section class="col-md-8">
+
+        
+
+            <article itemscope itemtype="https://schema.org/Article">
+    
+    <link itemprop="mainEntityOfPage" href="http://example.com/2022/06/18/More-and-More/">
+    <div class="kratos-hentry kratos-post-inner clearfix">
+        <header class="kratos-entry-header">
+            
+                <h1 class="kratos-entry-title text-center" itemprop="name headline">html中的超链接标签</h1>
+            
+            
+            <ul class="kratos-post-meta text-center">
+                <li><time datetime="2022-06-18T15:33:15.000Z" itemprop="datePublished"><i class="fa fa-calendar"></i> 2022-06-18</time></li>
+                <li itemprop="author" itemscope itemtype="https://schema.org/Person">
+                    <i class="fa fa-user"></i> 作者 <span itemprop="name">Akuzyo</span>
+                </li>
+                <li>
+                    <i class="fa fa-edit"></i> 
+                    
+                    
+                        ~2.99K
+                    
+                    字
+                </li>
+                
+                    <li id="/2022/06/18/More-and-More/" class="leancloud_visitors" data-flag-title="html中的超链接标签">
+                        <i class="fa fa-eye"></i>
+                        <span class="leancloud-visitors-count"> </span> 次阅读
+                    </li>
+                    
+                
+            </ul>
+        </header>
+        <div class="kratos-post-content">
+            
+            <div id="expire-alert" class="alert alert-warning hidden" role="alert">
+                <div class="icon"><i class="fa fa-warning"></i></div>
+                <div class="text"><p>本文最后编辑于 <time datetime="1659284529183"></time> 前，其中的内容可能需要更新。</p></div>
+            </div>
+            
+            
+            <hr />
+            <div itemprop="articleBody"><p>这次准备试试看到什么写什么，当然该查的还是得查的OWO</p>
+<p>那就让我们开始吧(￣▽￣)”</p>
+<h3 id="当然，这也是一个自用的笔记，如有失误希望能在评论中帮我指正，这对我有很大的帮助o-￣▽￣-ブ"><a href="#当然，这也是一个自用的笔记，如有失误希望能在评论中帮我指正，这对我有很大的帮助o-￣▽￣-ブ" class="headerlink" title="当然，这也是一个自用的笔记，如有失误希望能在评论中帮我指正，这对我有很大的帮助o(￣▽￣)ブ"></a>当然，这也是一个自用的笔记，如有失误希望能在评论中帮我指正，这对我有很大的帮助o(<em>￣▽￣</em>)ブ</h3><hr>
+<p>前面是或多或少有提过（或者用过）这个标签了(没有也得说有(* ￣︿￣))</p>
+<p>之前用它只是用来连接网站，结果发现是超链接…</p>
+<p>什么，你问我什么是超链接吗？嗯…PPT里就有超链接啊，难道没有玩过吗？</p>
+<p>这个标签算是第一个接触的大多数情况得加属性的标签</p>
+<p>那大多数情况都会有那些属性呢…大概就是以下这三种啦( •̀ ω •́ )y</p>
+<hr>
+<h3 id="herf"><a href="#herf" class="headerlink" title="herf"></a>herf</h3><p>用法与markdown中的<code> [word](url)</code> 差不多</p>
+<p>使用起来很简单，只需要往里面塞链接就好啦</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">herf</span>=<span class="string">&quot;https://lhzchh.github.io/“ target=&quot;</span><span class="attr">_blank</span>&quot;&gt;</span>是自己的博客啦<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>结果就差不多是这样<a herf="lhzchh.github.io">是自己的博客啦</a></p>
+<p>当然，作为超链接，那他的表面就可以不仅是文字，图片等其他东西也可以被塞链接的，就像下面这样</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;https://lhzchh.github.io/&quot;</span>&gt;</span><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;https://s1.ax1x.com/2022/06/18/XOonde.png&quot;</span> <span class="attr">alt</span>=<span class="string">&quot;XOonde.png&quot;</span> <span class="attr">border</span>=<span class="string">&quot;0&quot;</span> /&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p><a target="_blank" rel="noopener" href="https://lhzchh.github.io/"><img src="https://s1.ax1x.com/2022/06/18/XOonde.png" alt="XOonde.png" border="0" /></a></p>
+<p>用法差不多就是这样了（但也十分常用，在自己初学的时候根本只知道这个，完全不知道下面两个= =）</p>
+<hr>
+<h3 id="target"><a href="#target" class="headerlink" title="target"></a>target</h3><p>target属性规定了这个超链接会在哪个地方打开</p>
+<p>有五个可以被打开的地方（听起来好怪啊喂(╯‵□′)╯︵┻━┻），其中两个是从网页角度来说的，后三个算是…在框架这个角度来说的吧</p>
+<p>当然了，这个属性得需要有前面的herf做前提<del>要不然都不知道该链接什么，怎么规定他从哪里打开呢？</del></p>
+<h4 id="self"><a href="#self" class="headerlink" title="_self"></a>_self</h4><p>这个是默认的，也就是说如果没有写target属性的话默认就是这个选项了</p>
+<p>意思就是在当前的页面中打开被链接的网页，说人话就是同窗口打开</p>
+<p>多说无益，实际看到才能知道是什么意思（实际上就是自己组织不了语言让你自己体会）</p>
+<pre><code>&lt;a href=&quot;https://lhzchh.github.io/&quot; target=&quot;_self&quot;&gt;这是self&lt;/a&gt;
+</code></pre>
+<p> 结果就是这个样子<a href="https://lhzchh.github.io/" target="_self">这是self</a>（打开后记得回来哦）</p>
+<h4 id="blank"><a href="#blank" class="headerlink" title="_blank"></a>_blank</h4><p>设定之后就是在新的页面中打开被链接的网页，也就是你在浏览器中右击链接时会出现的“在新标签页中打开链接”</p>
+<p>个人认为这样打开链接很舒服也很方便，但是由于好像也有一定的性能问题与安全问题，容易被钓鱼，所以有的人可能不推荐用这个标签（当然我也没有搞懂这个，感觉很复杂…）</p>
+<p>更新一下，比较新的浏览器已经把这个修复了，但是为了以防万一，比较简单而且能用的防范方式，就是在属性里面再加一个<code> rel=&quot;noopener noreferrer&quot;</code>(据说加noreferrer是为了兼容早期的火狐浏览器，当然新版的火狐肯定是支持的）</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;https://lhzchh.github.io/&quot;</span> <span class="attr">target</span>=<span class="string">&quot;_blank&quot;</span> <span class="attr">rel</span>=<span class="string">&quot;noopener noreferrer&quot;</span>&gt;</span>这是blank<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;a href=&quot;https://lhzchh.github.io/&quot; target=&quot;_blank&quot;&gt;这是blank&lt;/a&gt;</span><br></pre></td></tr></table></figure>
+<p>结果就是这个样子<a href="https://lhzchh.github.io/" target="_blank" rel="noopener noreferrer">这是blank</a>（不用回来了）</p>
+<p><strong>那么前两个就是从”页面”的角度来分类的两个标签，一般知道这两个就差不多了。接下来就是从框架的角度来讲的后三个标签啦，当然，也有必要去简单了解以下标签是什么了</strong></p>
+<h5 id="框架"><a href="#框架" class="headerlink" title="框架"></a>框架</h5><p>简单点来说就是套娃，一个网站里面再套另一个网站</p>
+<p>比如说这样</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">     <span class="tag">&lt;<span class="name">iframe</span> <span class="attr">src</span>=<span class="string">&quot;https://lhzchh.github.io/&quot;</span> <span class="attr">name</span>=<span class="string">&quot;test1&quot;</span> <span class="attr">width</span>=<span class="string">&quot;100%&quot;</span> <span class="attr">height</span>=<span class="string">&quot;400&quot;</span> <span class="attr">style</span>=<span class="string">&quot;border: 0;&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>看起来应该是这个样子</p>
+<p> <iframe src="https://lhzchh.github.io/" name="test1" width="100%" height="400" style="border: 0;"></iframe></p>
+<p>有时候一个网站里面用这个可以把一个页面分成很多个不同的网页，当然也算是套娃的一种啦</p>
+<p>设定框架的方法有两种，当然这就不是现在该谈的了</p>
+<p>那么，接着回到正题，去讲后面的三个属性吧</p>
+<h4 id="framename"><a href="#framename" class="headerlink" title="framename"></a>framename</h4><p>因为不知道该先说什么会比较好（我想由易到难开始讲的，但是感觉哪个都不好理解，所以就先说这个相对简单的了）</p>
+<p><strong>framename顾名思义，就是在指定名字的框架(也就是前面写框架时的那个name=“xxx”)里面打开链接</strong></p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;https://www.bilibili.com/&quot;</span> <span class="attr">target</span>=<span class="string">&quot;test1&quot;</span>&gt;</span>这是framename<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>效果差不多是这个样子<a href="https://www.bilibili.com/" target="frame">这个是framename</a>（这里看不出来，理想效果应该是在前面的那个框架中看到粉色小电视，所以只好用gif展示了…或者在<a target="_blank" rel="noopener" href="https://www.dofactory.com/html/editor/target-framename">这个网站</a>也可以看到相关的示范）</p>
+<p><img src="framename.gif" alt="框架名字"></p>
+<h4 id="parent"><a href="#parent" class="headerlink" title="_parent"></a>_parent</h4><p>parent的话…一般来说和下面这个看不出很大的区别</p>
+<p>但是如果是很多个框架在套娃的话，就能看出来了(但是这个就更难说了TAT)</p>
+<p>怎么说呢…就像是下面这个样子</p>
+<p><img src="parent.png" alt="娃套娃"></p>
+<p>此时如果第三个frame里面写了这个</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;a href=&quot;https://www.runoob.com/&quot; target=&quot;_parent&quot;&gt;这个是parent&lt;/a&gt;</span><br></pre></td></tr></table></figure>
+<p>就会让第二个frame(也就是父框架，我个人更喜欢叫上一级框架)打开相对应的网站</p>
+<p>也就是下面这个样子(我怎么感觉我现在在说玄学…)</p>
+<p><img src="parent_demo.gif" alt="就像下面这样"></p>
+<h4 id="top"><a href="#top" class="headerlink" title="_top"></a>_top</h4><p>终于是最后一个啦</p>
+<p>现在写感觉_top反而是最简单的一个，因为他的作用就是</p>
+<p><strong>一！键！核！平！</strong></p>
+<p>无论把他放在哪个框架里面，他都能产生和self一样的效果！</p>
+<p><del>不要998，框架核弹带回家(?)</del></p>
+<p>写法就像下面这样</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;a href=&quot;https://lhzchh.github.io/&quot; target=&quot;_top&quot;&gt;这是top&lt;/a&gt;</span><br></pre></td></tr></table></figure>
+<p>效果就是<a href="https://lhzchh.github.io/" target="_top">这样啦</a>（当然这里看不出来QAQ，记得要点回来看啊啊啊）</p>
+<p><strong>那么，target属性就介绍到这里吧，如果有错误的话可以在评论下帮忙指出（因为这个时间跨度很长了，或多或少也有些遗忘)</strong></p>
+<hr>
+<h3 id="id属性"><a href="#id属性" class="headerlink" title="id属性"></a>id属性</h3><p>等等，还有最后一个没有说(不过现在来说也没有很重要啦)</p>
+<p>它的作用就是创建一个 HTML 文档书签，而且在网页中是不会显示的</p>
+<p>它的作用…大概就是为了做标记吧（笑）</p>
+<hr>
+<h2 id="一如既往的，感谢你能看到最后╰-￣ω￣o"><a href="#一如既往的，感谢你能看到最后╰-￣ω￣o" class="headerlink" title="一如既往的，感谢你能看到最后╰(￣ω￣ｏ)"></a>一如既往的，感谢你能看到最后╰(￣ω￣ｏ)</h2><h2 id="这个笔记拖了好久好久，终于把他补完了…喷喷2害人不浅啊-´。＿。｀"><a href="#这个笔记拖了好久好久，终于把他补完了…喷喷2害人不浅啊-´。＿。｀" class="headerlink" title="这个笔记拖了好久好久，终于把他补完了…喷喷2害人不浅啊(´。＿。｀)"></a>这个笔记拖了好久好久，终于把他补完了…喷喷2害人不浅啊(´。＿。｀)</h2></div>
+        </div>
+        
+            <div class="kratos-copyright text-center clearfix">
+                <h5 itemprop="copyrightNotice">本作品采用 <a rel="license nofollow" target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/">知识共享署名-相同方式共享 4.0 国际许可协议</a> 进行许可</h5>
+            </div>
+        
+        <footer class="kratos-entry-footer clearfix">
+            
+                <div class="post-like-donate text-center clearfix" id="post-like-donate">
+                
+                
+                    <a class="share" href="javascript:;"><i class="fa fa-share-alt"></i> 分享</a>
+                    <div class="share-wrap" style="display: none;">
+    <div class="share-group">
+        <a href="javascript:;" class="share-plain qq" onclick="share('qq');" rel="nofollow">
+            <div class="icon-wrap">
+                <i class="fa fa-qq"></i>
+            </div>
+        </a>
+        <a href="javascript:;" class="share-plain qzone" onclick="share('qzone');" rel="nofollow">
+            <div class="icon-wrap">
+                <i class="fa fa-star"></i>
+            </div>
+        </a>
+        <a href="javascript:;" class="share-plain weixin pop style-plain" rel="nofollow">
+            <div class="icon-wrap">
+                <i class="fa fa-weixin"></i>
+            </div>
+            <div class="share-int">
+                <div class="qrcode" id="wechat-qr"></div>
+                <p>打开微信“扫一扫”，打开网页后点击屏幕右上角分享按钮</p>
+            </div>
+        </a>
+        <a href="javascript:;" class="share-plain weibo" onclick="share('weibo');" rel="nofollow">
+            <div class="icon-wrap">
+                <i class="fa fa-weibo"></i>
+            </div>
+        </a>
+        <a href="javascript:;" class="share-plain facebook style-plain" onclick="share('facebook');" rel="nofollow">
+            <div class="icon-wrap">
+                <i class="fa fa-facebook"></i>
+            </div>
+        </a>
+        <a href="javascript:;" class="share-plain twitter style-plain" onclick="share('twitter');" rel="nofollow">
+            <div class="icon-wrap">
+                <i class="fa fa-twitter"></i>
+            </div>
+        </a>
+    </div>
+    <script type="text/javascript">
+        $(()=>{
+            new QRCode("wechat-qr", {
+                text: "http://example.com/2022/06/18/More-and-More/",
+                width: 150,
+                height: 150,
+                correctLevel : QRCode.CorrectLevel.H
+            });
+        });
+        function share(dest) {
+            const qqBase        = "https://connect.qq.com/widget/shareqq/index.html?";
+            const weiboBase     = "https://service.weibo.com/share/share.php?";
+            const qzoneBase     = "https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?";
+            const facebookBase  = "https://www.facebook.com/sharer/sharer.php?";
+            const twitterBase   = "https://twitter.com/intent/tweet?";
+            const hostUrl       = "http://example.com/2022/06/18/More-and-More/";
+            const title         = "「html中的超链接标签」";
+            const excerpt       = `这次准备试试看到什么写什么，当然该查的还是得查的OWO
+
+那就让我们开始吧(￣▽￣)”
+
+当然，这也是一个自用的笔记，如有失误希望能在评论中帮我指正，这对我有很大的帮助o(￣▽￣)ブ
+
+
+
+前面是或多或少有提过（或者用过）这个标签了(没有也得说有(* ￣︿￣))
+
+之前用它只是用来连接网站，结果发现是超链接…
+
+什么，你问我什么是超链接吗？嗯…PPT里就有超链接啊，难道没有玩过吗？
+
+这个标签算是第一个接触的大多数情况得加属性的标签
+
+那大多数情况都会有那些属性呢…大概就是以下这三种啦( •̀ ω •́ )y
+
+
+
+
+herf
+用法与markdown中的 [word](url) 差不多
+
+使用`;
+            let _URL;
+            switch (dest) {
+                case "qq"       : _URL = qqBase+"url="+hostUrl+"&title="+title+"&desc=&summary="+excerpt+"&site=cxpy";     break;
+                case "weibo"    : _URL = weiboBase+"url="+hostUrl+"&title="+title+excerpt;                                 break;
+                case "qzone"    : _URL = qzoneBase+"url="+hostUrl+"&title="+title+"&desc=&summary="+excerpt+"&site=cxpy";  break;
+                case "facebook" : _URL = facebookBase+"u="+hostUrl;                                                        break;
+                case "twitter"  : _URL = twitterBase+"text="+title+excerpt+"&url="+hostUrl;                                break;
+            }
+            window.open(_URL);
+        };
+    </script>
+</div>
+                
+                </div>
+            
+            <div class="footer-tag clearfix">
+                <div class="pull-left">
+                <i class="fa fa-tags"></i>
+                    <a class="tag-none-link" href="/tags/%E7%9E%8E%E6%89%AF/" rel="tag">瞎扯</a>, <a class="tag-none-link" href="/tags/%E8%87%AA%E5%B7%B1%E7%9A%84%E7%AC%94%E8%AE%B0/" rel="tag">自己的笔记</a>
+                </div>
+                <div class="pull-date">
+                    <time datetime="2022-07-31T16:22:09.183Z" itemprop="dateModified">最后编辑：2022-08-01</time>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+        <nav class="navigation post-navigation clearfix" role="navigation">
+            
+            <div class="nav-previous clearfix">
+                <a title=" (无标题)" href="/2022/06/17/finale/">&lt; 上一篇</a>
+            </div>
+            
+            
+        </nav>
+    
+    
+        <div id="v-comments" class="post-comments"></div>
+<script>
+    var load_comm = () => {
+        const init = () => {
+            new Valine({
+                el: '#v-comments',
+                appId: 'AdlT4OTVorfSCwe3sjmXoQpU-MdYXbMMI',
+                appKey: 'ovTgFSLsLp4VTASJp7xTRn0V',
+                visitor: true,
+                enableQQ: true,
+                path: '/2022/06/18/More-and-More/'
+            });
+        }
+        if (typeof Valine === 'undefined') {
+            const src = '/vendors/valine@1.4.18/dist/Valine.min.js';
+            $.getScript(src, init);
+        } else {
+            init();
+        }
+    };
+</script>
+<noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="https://valine.js.org/">comments powered by Valine.</a></noscript>
+
+    
+</article>
+
+        
+
+            </section>
+
+        
+
+                
+            
+
+<section id="kratos-widget-area" class="col-md-4 hidden-xs hidden-sm">
+    <!-- 文章和页面根据splitter来分割，没有的话就从头开始设置为sticky -->
+    
+    
+                <aside id="krw-about" class="widget widget-kratos-about clearfix">
+    <div class="photo-background"></div>
+    <div class="photo-wrapper clearfix">
+        <div class="photo-wrapper-tip text-center">
+            <img class="about-photo" src="/images/avatar.webp" loading="lazy" decoding="auto" />
+        </div>
+    </div>
+    <div class="textwidget">
+        <p class="text-center">
+            No I refuse to know what is true
+            <br />
+            The world's the same without me
+            
+        </p>
+    </div>
+    <div class="site-meta">
+        <a class="meta-item" href="/archives/">
+            <span class="title">
+                文章
+            </span>
+            <span class="count">
+                12
+            </span>
+        </a>
+        <a class="meta-item" href="/categories/">
+            <span class="title">
+                分类
+            </span>
+            <span class="count">
+                4
+            </span>
+        </a>
+        <a class="meta-item" href="/tags/">
+            <span class="title">
+                标签
+            </span>
+            <span class="count">
+                8
+            </span>
+        </a>
+    </div>
+</aside>
+            
+                    <div class="sticky-area">
+                
+                
+  <aside id="krw-categories" class="widget widget-kratos-categories clearfix">
+    <h4 class="widget-title"><i class="fa fa-folder"></i>分类目录</h4>
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/html%E7%9A%84%E7%AC%94%E8%AE%B0/">html的笔记</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%85%B3%E4%BA%8E%E6%B8%B8%E6%88%8F/">关于游戏</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%89%8B%E6%9C%BA/">手机</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E9%9A%8F%E4%BE%BF%E8%81%8A%E8%81%8A/">随便聊聊</a><span class="category-list-count">4</span></li></ul>
+  </aside>
+
+
+            
+                
+  <aside id="krw-tags" class="widget widget-kratos-tags clearfix">
+    <h4 class="widget-title"><i class="fa fa-tags"></i>标签聚合</h4>
+      <div class="tag-clouds">
+        <a href="/tags/2022%E5%B9%B4%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/" style="font-size: 0.6em;">2022年的第一篇文章</a> <a href="/tags/%E6%8A%98%E8%85%BE%E6%8E%8C%E6%9C%BA/" style="font-size: 0.6em;">折腾掌机</a> <a href="/tags/%E6%95%99%E7%A8%8B/" style="font-size: 0.6em;">教程</a> <a href="/tags/%E6%97%85%E8%A1%8C/" style="font-size: 0.6em;">旅行</a> <a href="/tags/%E7%9E%8E%E6%89%AF/" style="font-size: 0.8em;">瞎扯</a> <a href="/tags/%E8%87%AA%E5%B7%B1%E7%9A%84%E7%AC%94%E8%AE%B0/" style="font-size: 0.7em;">自己的笔记</a> <a href="/tags/%E9%97%B2%E8%81%8A/" style="font-size: 0.7em;">闲聊</a> <a href="/tags/%E9%9A%8F%E4%BE%BF%E8%81%8A%E8%81%8A/" style="font-size: 0.6em;">随便聊聊</a>
+      </div>
+  </aside>
+
+            
+                
+  <aside id="krw-posts" class="widget widget-kratos-posts">
+  <h4 class="widget-title"><i class="fa fa-file"></i>最新文章</h4>
+  <div class="tab-content">
+      <ul class="list-group">
+        
+        
+          
+          
+            <a class="list-group-item" href="/2022/06/18/More-and-More/"><i class="fa  fa-book"></i> html中的超链接标签</a>
+            
+          
+        
+          
+          
+        
+          
+          
+            <a class="list-group-item" href="/2022/04/22/decision/"><i class="fa  fa-book"></i> 决定</a>
+            
+          
+        
+          
+          
+            <a class="list-group-item" href="/2022/01/02/xz3-in-2022/"><i class="fa  fa-book"></i> 2022年的第一次开箱（或者说2021年的最后一次开箱？）--索尼xperia xz3开箱感受</a>
+            
+          
+        
+          
+          
+            <a class="list-group-item" href="/2021/10/24/More-Elements/"><i class="fa  fa-book"></i> 更多的html标签</a>
+            
+          
+        
+          
+          
+            <a class="list-group-item" href="/2021/08/30/From-Jinyuan-to-Yingze/"><i class="fa  fa-book"></i> 记一次公交“旅行”</a>
+            
+          
+        
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+      </ul>
+  </div>
+  </aside>
+
+            
+    </div>
+</section>
+        
+        </div>
+    </div>
+</div>
+<footer>
+    <div id="footer"  class="ap-lrc"  >
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 footer-list text-center">
+                    <ul class="kratos-social-icons">
+                        
+                        
+                        <li><a target="_blank" rel="nofollow" href="https://t.me/Lhzchh"><i class="fa fa-telegram"></i></a></li>
+                        
+                        
+                        
+                        
+                        
+                        
+                    </ul>
+                    <ul class="kratos-copyright">
+                        <div>
+                            <li>&copy; 2022 Akuzyo的小岛 版权所有.</li>
+                            <li>本站已运行<span id="span_dt">Loading...</span></li>
+                        </div>
+                        <div>
+                            <li>Theme <a href="https://github.com/Candinya/Kratos-Rebirth" target="_blank">Kratos:Rebirth</a></li>
+                            <li>Site built with&nbsp;<i class="fa fa-heart throb" style="color:#d43f57"></i>&nbsp;by Akuzyo.</li>
+                        </div>
+                        <div>
+                            <li>Powered by <a href="https://hexo.io" target="_blank" rel="nofollow">Hexo</a></li>
+                            <li>Hosted on <a href="https://github.io" target="_blank">Github Pages</a></li>
+                        </div>
+                        <div>
+                            
+                            
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="kr-tool text-center">
+            <div class="tool">
+                
+                    <div class="box search-box">
+                        <a href="/search/">
+                            <span class="fa fa-search"></span>
+                        </a>
+                    </div>
+                
+                
+                    <div class="box theme-box" id="darkmode-switch">
+                        <span class="fa fa-adjust"></span>
+                    </div>
+                
+                
+            </div>
+            <div class="box gotop-box">
+                <span class="fa fa-chevron-up"></span>
+            </div>
+        </div>
+    </div>
+</footer>
+</div>
+</div>
+
+        <script defer src="/vendors/bootstrap@3.3.4/dist/js/bootstrap.min.js"></script>
+<script defer src="/vendors/nprogress@0.2.0/nprogress.js"></script>
+<script>
+    if (!window.kr) {
+        window.kr = {};
+    }
+    window.kr.notMobile = (!(navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i)));
+    window.kr.siteRoot = "/";
+</script>
+
+
+    <script async src="/js/candy.min.js"></script>
+
+
+
+    <script defer src="/vendors/aplayer@1.10.1/dist/APlayer.min.js"></script>
+    
+    <script defer src="/vendors/meting@2.0.1/dist/Meting.min.js"></script>
+    <meting-js
+        server="netease"
+        type="playlist"
+        id="6839873820"
+        order="random"
+        fixed="true"
+    >
+    </meting-js>
+
+
+
+    <script defer src="/vendors/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+<script defer src="/vendors/clipboard@2.0.6/dist/clipboard.min.js"></script>
+<script defer src="/js/kratosr.min.js"></script>
+<script defer src="/js/pjax.min.js"></script>
+
+
+
+<!-- Extra support for third-party plguins  -->
+
+
+    </body>
+</html>

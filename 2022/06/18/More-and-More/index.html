@@ -25,7 +25,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://example.com//images/logo.ico">
 <meta property="article:published_time" content="2022-06-18T15:33:15.000Z">
-<meta property="article:modified_time" content="2022-07-31T16:22:09.183Z">
+<meta property="article:modified_time" content="2022-10-02T13:30:00.100Z">
 <meta property="article:author" content="Akuzyo">
 <meta property="article:tag" content="瞎扯">
 <meta property="article:tag" content="自己的笔记">
@@ -183,7 +183,7 @@
                     <i class="fa fa-edit"></i> 
                     
                     
-                        ~2.99K
+                        ~3.00K
                     
                     字
                 </li>
@@ -200,7 +200,7 @@
             
             <div id="expire-alert" class="alert alert-warning hidden" role="alert">
                 <div class="icon"><i class="fa fa-warning"></i></div>
-                <div class="text"><p>本文最后编辑于 <time datetime="1659284529183"></time> 前，其中的内容可能需要更新。</p></div>
+                <div class="text"><p>本文最后编辑于 <time datetime="1664717400100"></time> 前，其中的内容可能需要更新。</p></div>
             </div>
             
             
@@ -216,12 +216,13 @@
 <hr>
 <h3 id="herf"><a href="#herf" class="headerlink" title="herf"></a>herf</h3><p>用法与markdown中的<code> [word](url)</code> 差不多</p>
 <p>使用起来很简单，只需要往里面塞链接就好啦</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">herf</span>=<span class="string">&quot;https://lhzchh.github.io/“ target=&quot;</span><span class="attr">_blank</span>&quot;&gt;</span>是自己的博客啦<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p>结果就差不多是这样<a herf="lhzchh.github.io">是自己的博客啦</a></p>
-<p>当然，作为超链接，那他的表面就可以不仅是文字，图片等其他东西也可以被塞链接的，就像下面这样</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;https://lhzchh.github.io/&quot;</span>&gt;</span><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;https://s1.ax1x.com/2022/06/18/XOonde.png&quot;</span> <span class="attr">alt</span>=<span class="string">&quot;XOonde.png&quot;</span> <span class="attr">border</span>=<span class="string">&quot;0&quot;</span> /&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">herf</span>=<span class="string">&quot;https://akuzyo.github.io/“ target=&quot;</span><span class="attr">_blank</span>&quot;&gt;</span>是自己的博客啦<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure>
 
-<p><a target="_blank" rel="noopener" href="https://lhzchh.github.io/"><img src="https://s1.ax1x.com/2022/06/18/XOonde.png" alt="XOonde.png" border="0" /></a></p>
+<p>结果就差不多是这样<a herf="akuzyo.github.io">是自己的博客啦</a></p>
+<p>当然，作为超链接，那他的表面就可以不仅是文字，图片等其他东西也可以被塞链接的，就像下面这样</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;https://akuzyo.github.io/&quot;</span>&gt;</span><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;https://s1.ax1x.com/2022/06/18/XOonde.png&quot;</span> <span class="attr">alt</span>=<span class="string">&quot;XOonde.png&quot;</span> <span class="attr">border</span>=<span class="string">&quot;0&quot;</span> /&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p><a target="_blank" rel="noopener" href="https://akuzyo.github.io/"><img src="https://s1.ax1x.com/2022/06/18/XOonde.png" alt="XOonde.png" border="0" /></a></p>
 <p>用法差不多就是这样了（但也十分常用，在自己初学的时候根本只知道这个，完全不知道下面两个= =）</p>
 <hr>
 <h3 id="target"><a href="#target" class="headerlink" title="target"></a>target</h3><p>target属性规定了这个超链接会在哪个地方打开</p>
@@ -230,27 +231,31 @@
 <h4 id="self"><a href="#self" class="headerlink" title="_self"></a>_self</h4><p>这个是默认的，也就是说如果没有写target属性的话默认就是这个选项了</p>
 <p>意思就是在当前的页面中打开被链接的网页，说人话就是同窗口打开</p>
 <p>多说无益，实际看到才能知道是什么意思（实际上就是自己组织不了语言让你自己体会）</p>
-<pre><code>&lt;a href=&quot;https://lhzchh.github.io/&quot; target=&quot;_self&quot;&gt;这是self&lt;/a&gt;
+<pre><code>&lt;a href=&quot;https://akuzyo.github.io/&quot; target=&quot;_self&quot;&gt;这是self&lt;/a&gt;
 </code></pre>
-<p> 结果就是这个样子<a href="https://lhzchh.github.io/" target="_self">这是self</a>（打开后记得回来哦）</p>
+<p> 结果就是这个样子<a href="https://akuzyo.github.io/" target="_self">这是self</a>（打开后记得回来哦）</p>
 <h4 id="blank"><a href="#blank" class="headerlink" title="_blank"></a>_blank</h4><p>设定之后就是在新的页面中打开被链接的网页，也就是你在浏览器中右击链接时会出现的“在新标签页中打开链接”</p>
 <p>个人认为这样打开链接很舒服也很方便，但是由于好像也有一定的性能问题与安全问题，容易被钓鱼，所以有的人可能不推荐用这个标签（当然我也没有搞懂这个，感觉很复杂…）</p>
 <p>更新一下，比较新的浏览器已经把这个修复了，但是为了以防万一，比较简单而且能用的防范方式，就是在属性里面再加一个<code> rel=&quot;noopener noreferrer&quot;</code>(据说加noreferrer是为了兼容早期的火狐浏览器，当然新版的火狐肯定是支持的）</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;https://lhzchh.github.io/&quot;</span> <span class="attr">target</span>=<span class="string">&quot;_blank&quot;</span> <span class="attr">rel</span>=<span class="string">&quot;noopener noreferrer&quot;</span>&gt;</span>这是blank<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;a href=&quot;https://lhzchh.github.io/&quot; target=&quot;_blank&quot;&gt;这是blank&lt;/a&gt;</span><br></pre></td></tr></table></figure>
-<p>结果就是这个样子<a href="https://lhzchh.github.io/" target="_blank" rel="noopener noreferrer">这是blank</a>（不用回来了）</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;https://akuzyo.github.io/&quot;</span> <span class="attr">target</span>=<span class="string">&quot;_blank&quot;</span> <span class="attr">rel</span>=<span class="string">&quot;noopener noreferrer&quot;</span>&gt;</span>这是blank<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;a href=&quot;https://akuzyo.github.io/&quot; target=&quot;_blank&quot;&gt;这是blank&lt;/a&gt;</span><br></pre></td></tr></table></figure>
+
+<p>结果就是这个样子<a href="https://akuzyo.github.io/" target="_blank" rel="noopener noreferrer">这是blank</a>（不用回来了）</p>
 <p><strong>那么前两个就是从”页面”的角度来分类的两个标签，一般知道这两个就差不多了。接下来就是从框架的角度来讲的后三个标签啦，当然，也有必要去简单了解以下标签是什么了</strong></p>
 <h5 id="框架"><a href="#框架" class="headerlink" title="框架"></a>框架</h5><p>简单点来说就是套娃，一个网站里面再套另一个网站</p>
 <p>比如说这样</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">     <span class="tag">&lt;<span class="name">iframe</span> <span class="attr">src</span>=<span class="string">&quot;https://lhzchh.github.io/&quot;</span> <span class="attr">name</span>=<span class="string">&quot;test1&quot;</span> <span class="attr">width</span>=<span class="string">&quot;100%&quot;</span> <span class="attr">height</span>=<span class="string">&quot;400&quot;</span> <span class="attr">style</span>=<span class="string">&quot;border: 0;&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">     <span class="tag">&lt;<span class="name">iframe</span> <span class="attr">src</span>=<span class="string">&quot;https://akuzyo.github.io/&quot;</span> <span class="attr">name</span>=<span class="string">&quot;test1&quot;</span> <span class="attr">width</span>=<span class="string">&quot;100%&quot;</span> <span class="attr">height</span>=<span class="string">&quot;400&quot;</span> <span class="attr">style</span>=<span class="string">&quot;border: 0;&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
 <p>看起来应该是这个样子</p>
-<p> <iframe src="https://lhzchh.github.io/" name="test1" width="100%" height="400" style="border: 0;"></iframe></p>
+<p> <iframe src="https://akuzyo.github.io/" name="test1" width="100%" height="400" style="border: 0;"></iframe></p>
 <p>有时候一个网站里面用这个可以把一个页面分成很多个不同的网页，当然也算是套娃的一种啦</p>
 <p>设定框架的方法有两种，当然这就不是现在该谈的了</p>
 <p>那么，接着回到正题，去讲后面的三个属性吧</p>
 <h4 id="framename"><a href="#framename" class="headerlink" title="framename"></a>framename</h4><p>因为不知道该先说什么会比较好（我想由易到难开始讲的，但是感觉哪个都不好理解，所以就先说这个相对简单的了）</p>
 <p><strong>framename顾名思义，就是在指定名字的框架(也就是前面写框架时的那个name=“xxx”)里面打开链接</strong></p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;https://www.bilibili.com/&quot;</span> <span class="attr">target</span>=<span class="string">&quot;test1&quot;</span>&gt;</span>这是framename<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
 <p>效果差不多是这个样子<a href="https://www.bilibili.com/" target="frame">这个是framename</a>（这里看不出来，理想效果应该是在前面的那个框架中看到粉色小电视，所以只好用gif展示了…或者在<a target="_blank" rel="noopener" href="https://www.dofactory.com/html/editor/target-framename">这个网站</a>也可以看到相关的示范）</p>
 <p><img src="framename.gif" alt="框架名字"></p>
 <h4 id="parent"><a href="#parent" class="headerlink" title="_parent"></a>_parent</h4><p>parent的话…一般来说和下面这个看不出很大的区别</p>
@@ -259,6 +264,7 @@
 <p><img src="parent.png" alt="娃套娃"></p>
 <p>此时如果第三个frame里面写了这个</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;a href=&quot;https://www.runoob.com/&quot; target=&quot;_parent&quot;&gt;这个是parent&lt;/a&gt;</span><br></pre></td></tr></table></figure>
+
 <p>就会让第二个frame(也就是父框架，我个人更喜欢叫上一级框架)打开相对应的网站</p>
 <p>也就是下面这个样子(我怎么感觉我现在在说玄学…)</p>
 <p><img src="parent_demo.gif" alt="就像下面这样"></p>
@@ -268,8 +274,9 @@
 <p>无论把他放在哪个框架里面，他都能产生和self一样的效果！</p>
 <p><del>不要998，框架核弹带回家(?)</del></p>
 <p>写法就像下面这样</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;a href=&quot;https://lhzchh.github.io/&quot; target=&quot;_top&quot;&gt;这是top&lt;/a&gt;</span><br></pre></td></tr></table></figure>
-<p>效果就是<a href="https://lhzchh.github.io/" target="_top">这样啦</a>（当然这里看不出来QAQ，记得要点回来看啊啊啊）</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;a href=&quot;https://akuzyo.github.io/&quot; target=&quot;_top&quot;&gt;这是top&lt;/a&gt;</span><br></pre></td></tr></table></figure>
+
+<p>效果就是<a href="https://akuzyo.github.io/" target="_top">这样啦</a>（当然这里看不出来QAQ，记得要点回来看啊啊啊）</p>
 <p><strong>那么，target属性就介绍到这里吧，如果有错误的话可以在评论下帮忙指出（因为这个时间跨度很长了，或多或少也有些遗忘)</strong></p>
 <hr>
 <h3 id="id属性"><a href="#id属性" class="headerlink" title="id属性"></a>id属性</h3><p>等等，还有最后一个没有说(不过现在来说也没有很重要啦)</p>
@@ -389,7 +396,7 @@ herf
                     <a class="tag-none-link" href="/tags/%E7%9E%8E%E6%89%AF/" rel="tag">瞎扯</a>, <a class="tag-none-link" href="/tags/%E8%87%AA%E5%B7%B1%E7%9A%84%E7%AC%94%E8%AE%B0/" rel="tag">自己的笔记</a>
                 </div>
                 <div class="pull-date">
-                    <time datetime="2022-07-31T16:22:09.183Z" itemprop="dateModified">最后编辑：2022-08-01</time>
+                    <time datetime="2022-10-02T13:30:00.100Z" itemprop="dateModified">最后编辑：2022-10-02</time>
                 </div>
             </div>
         </footer>
@@ -398,9 +405,13 @@ herf
         <nav class="navigation post-navigation clearfix" role="navigation">
             
             <div class="nav-previous clearfix">
-                <a title=" (无标题)" href="/2022/06/17/finale/">&lt; 上一篇</a>
+                <a title=" 决定" href="/2022/04/22/decision/">&lt; 上一篇</a>
             </div>
             
+            
+            <div class="nav-next clearfix">
+                <a title=" (无标题)" href="/2022/08/31/busy/">下一篇 &gt;</a>
+            </div>
             
         </nav>
     
@@ -489,11 +500,17 @@ herf
         
           
           
-            <a class="list-group-item" href="/2022/06/18/More-and-More/"><i class="fa  fa-book"></i> html中的超链接标签</a>
-            
+        
+          
           
         
           
+          
+        
+          
+          
+            <a class="list-group-item" href="/2022/06/18/More-and-More/"><i class="fa  fa-book"></i> html中的超链接标签</a>
+            
           
         
           
@@ -520,10 +537,6 @@ herf
             
           
         
-          
-            
-          
-            
           
             
           

@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-06-17T15:39:18.795Z</updated>
+  <updated>2022-10-02T14:06:32.282Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,82 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="http://example.com/2022/08/31/finale/"/>
-    <id>http://example.com/2022/08/31/finale/</id>
-    <published>2022-08-31T15:51:25.821Z</published>
-    <updated>2022-06-17T15:39:18.795Z</updated>
-    
-    <content type="html"><![CDATA[<p>考完试啦</p><p>但感觉又燥又空虚</p><p>不过最近肯定会把自己以前热爱的东西捡起来的o(<em>￣▽￣</em>)ブ</p><p>希望大家和自己多多期待一下吧OWO</p>]]></content>
-    
-    
-    <summary type="html">考完试啦
-
-但感觉又燥又空虚
-
-不过最近肯定会把自己以前热爱的东西捡起来的o(￣▽￣)ブ
-
-希望大家和自己多多期待一下吧OWO</summary>
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="http://example.com/2022/08/31/recent/"/>
-    <id>http://example.com/2022/08/31/recent/</id>
-    <published>2022-08-31T15:48:47.715Z</published>
-    <updated>2021-08-10T21:23:41.151Z</updated>
-    
-    <content type="html"><![CDATA[<p>”关于-这个网站“的页面也写好了，可以过去看一下o(￣▽￣)ｄ</p><p>最近的学校生活很累，但感觉很充实，和同学的关系也很好（至少比以前好多了）</p><p>但是学习的状态不怎么好，需要调整一下</p><p>本来这周回来是要写html的笔记的，但是睡了一天（所以我又没调整好）</p><p>就这样吧，要睡觉了，晚安zzz</p>]]></content>
-    
-    
-    <summary type="html">”关于-这个网站“的页面也写好了，可以过去看一下o(￣▽￣)ｄ
-
-最近的学校生活很累，但感觉很充实，和同学的关系也很好（至少比以前好多了）
-
-但是学习的状态不怎么好，需要调整一下
-
-本来这周回来是要写html的笔记的，但是睡了一天（所以我又没调整好）
-
-就这样吧，要睡觉了，晚安zzz</summary>
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="http://example.com/2022/08/31/busy/"/>
-    <id>http://example.com/2022/08/31/busy/</id>
-    <published>2022-08-31T15:48:47.621Z</published>
-    <updated>2021-08-10T21:29:28.021Z</updated>
-    
-    <content type="html"><![CDATA[<p><strong>最近因为集训…所以说先把页面放上来了…</strong></p><p>“关于..—自己”这个页面是可以用的，可以随便看一看…</p><p>有很多东西没有整好…等有时间我在慢慢改吧..</p><p>emm..就这样</p>]]></content>
-    
-    
-    <summary type="html">最近因为集训…所以说先把页面放上来了…
-
-“关于..—自己”这个页面是可以用的，可以随便看一看…
-
-有很多东西没有整好…等有时间我在慢慢改吧..
-
-emm..就这样</summary>
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>html中的超链接标签</title>
     <link href="http://example.com/2022/06/18/More-and-More/"/>
     <id>http://example.com/2022/06/18/More-and-More/</id>
     <published>2022-06-18T15:33:15.000Z</published>
-    <updated>2022-10-02T13:30:00.100Z</updated>
+    <updated>2022-10-02T14:06:32.282Z</updated>
     
     <content type="html"><![CDATA[<p>这次准备试试看到什么写什么，当然该查的还是得查的OWO</p><p>那就让我们开始吧(￣▽￣)”</p><h3 id="当然，这也是一个自用的笔记，如有失误希望能在评论中帮我指正，这对我有很大的帮助o-￣▽￣-ブ"><a href="#当然，这也是一个自用的笔记，如有失误希望能在评论中帮我指正，这对我有很大的帮助o-￣▽￣-ブ" class="headerlink" title="当然，这也是一个自用的笔记，如有失误希望能在评论中帮我指正，这对我有很大的帮助o(￣▽￣)ブ"></a>当然，这也是一个自用的笔记，如有失误希望能在评论中帮我指正，这对我有很大的帮助o(<em>￣▽￣</em>)ブ</h3><hr><p>前面是或多或少有提过（或者用过）这个标签了(没有也得说有(* ￣︿￣))</p><p>之前用它只是用来连接网站，结果发现是超链接…</p><p>什么，你问我什么是超链接吗？嗯…PPT里就有超链接啊，难道没有玩过吗？</p><p>这个标签算是第一个接触的大多数情况得加属性的标签</p><p>那大多数情况都会有那些属性呢…大概就是以下这三种啦( •̀ ω •́ )y</p><hr><h3 id="herf"><a href="#herf" class="headerlink" title="herf"></a>herf</h3><p>用法与markdown中的<code> [word](url)</code> 差不多</p><p>使用起来很简单，只需要往里面塞链接就好啦</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">herf</span>=<span class="string">&quot;https://akuzyo.github.io/“ target=&quot;</span><span class="attr">_blank</span>&quot;&gt;</span>是自己的博客啦<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure><p>结果就差不多是这样<a herf="akuzyo.github.io">是自己的博客啦</a></p><p>当然，作为超链接，那他的表面就可以不仅是文字，图片等其他东西也可以被塞链接的，就像下面这样</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;https://akuzyo.github.io/&quot;</span>&gt;</span><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;https://s1.ax1x.com/2022/06/18/XOonde.png&quot;</span> <span class="attr">alt</span>=<span class="string">&quot;XOonde.png&quot;</span> <span class="attr">border</span>=<span class="string">&quot;0&quot;</span> /&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure><p><a href="https://akuzyo.github.io/"><img src="https://s1.ax1x.com/2022/06/18/XOonde.png" alt="XOonde.png" border="0" /></a></p><p>用法差不多就是这样了（但也十分常用，在自己初学的时候根本只知道这个，完全不知道下面两个= =）</p><hr><h3 id="target"><a href="#target" class="headerlink" title="target"></a>target</h3><p>target属性规定了这个超链接会在哪个地方打开</p><p>有五个可以被打开的地方（听起来好怪啊喂(╯‵□′)╯︵┻━┻），其中两个是从网页角度来说的，后三个算是…在框架这个角度来说的吧</p><p>当然了，这个属性得需要有前面的herf做前提<del>要不然都不知道该链接什么，怎么规定他从哪里打开呢？</del></p><h4 id="self"><a href="#self" class="headerlink" title="_self"></a>_self</h4><p>这个是默认的，也就是说如果没有写target属性的话默认就是这个选项了</p><p>意思就是在当前的页面中打开被链接的网页，说人话就是同窗口打开</p><p>多说无益，实际看到才能知道是什么意思（实际上就是自己组织不了语言让你自己体会）</p><pre><code>&lt;a href=&quot;https://akuzyo.github.io/&quot; target=&quot;_self&quot;&gt;这是self&lt;/a&gt;</code></pre><p> 结果就是这个样子<a href="https://akuzyo.github.io/" target="_self">这是self</a>（打开后记得回来哦）</p><h4 id="blank"><a href="#blank" class="headerlink" title="_blank"></a>_blank</h4><p>设定之后就是在新的页面中打开被链接的网页，也就是你在浏览器中右击链接时会出现的“在新标签页中打开链接”</p><p>个人认为这样打开链接很舒服也很方便，但是由于好像也有一定的性能问题与安全问题，容易被钓鱼，所以有的人可能不推荐用这个标签（当然我也没有搞懂这个，感觉很复杂…）</p><p>更新一下，比较新的浏览器已经把这个修复了，但是为了以防万一，比较简单而且能用的防范方式，就是在属性里面再加一个<code> rel=&quot;noopener noreferrer&quot;</code>(据说加noreferrer是为了兼容早期的火狐浏览器，当然新版的火狐肯定是支持的）</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;https://akuzyo.github.io/&quot;</span> <span class="attr">target</span>=<span class="string">&quot;_blank&quot;</span> <span class="attr">rel</span>=<span class="string">&quot;noopener noreferrer&quot;</span>&gt;</span>这是blank<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;a href=&quot;https://akuzyo.github.io/&quot; target=&quot;_blank&quot;&gt;这是blank&lt;/a&gt;</span><br></pre></td></tr></table></figure><p>结果就是这个样子<a href="https://akuzyo.github.io/" target="_blank" rel="noopener noreferrer">这是blank</a>（不用回来了）</p><p><strong>那么前两个就是从”页面”的角度来分类的两个标签，一般知道这两个就差不多了。接下来就是从框架的角度来讲的后三个标签啦，当然，也有必要去简单了解以下标签是什么了</strong></p><h5 id="框架"><a href="#框架" class="headerlink" title="框架"></a>框架</h5><p>简单点来说就是套娃，一个网站里面再套另一个网站</p><p>比如说这样</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">     <span class="tag">&lt;<span class="name">iframe</span> <span class="attr">src</span>=<span class="string">&quot;https://akuzyo.github.io/&quot;</span> <span class="attr">name</span>=<span class="string">&quot;test1&quot;</span> <span class="attr">width</span>=<span class="string">&quot;100%&quot;</span> <span class="attr">height</span>=<span class="string">&quot;400&quot;</span> <span class="attr">style</span>=<span class="string">&quot;border: 0;&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span><br></pre></td></tr></table></figure><p>看起来应该是这个样子</p><p> <iframe src="https://akuzyo.github.io/" name="test1" width="100%" height="400" style="border: 0;"></iframe></p><p>有时候一个网站里面用这个可以把一个页面分成很多个不同的网页，当然也算是套娃的一种啦</p><p>设定框架的方法有两种，当然这就不是现在该谈的了</p><p>那么，接着回到正题，去讲后面的三个属性吧</p><h4 id="framename"><a href="#framename" class="headerlink" title="framename"></a>framename</h4><p>因为不知道该先说什么会比较好（我想由易到难开始讲的，但是感觉哪个都不好理解，所以就先说这个相对简单的了）</p><p><strong>framename顾名思义，就是在指定名字的框架(也就是前面写框架时的那个name=“xxx”)里面打开链接</strong></p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;https://www.bilibili.com/&quot;</span> <span class="attr">target</span>=<span class="string">&quot;test1&quot;</span>&gt;</span>这是framename<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure><p>效果差不多是这个样子<a href="https://www.bilibili.com/" target="frame">这个是framename</a>（这里看不出来，理想效果应该是在前面的那个框架中看到粉色小电视，所以只好用gif展示了…或者在<a href="https://www.dofactory.com/html/editor/target-framename">这个网站</a>也可以看到相关的示范）</p><p><img src="framename.gif" alt="框架名字"></p><h4 id="parent"><a href="#parent" class="headerlink" title="_parent"></a>_parent</h4><p>parent的话…一般来说和下面这个看不出很大的区别</p><p>但是如果是很多个框架在套娃的话，就能看出来了(但是这个就更难说了TAT)</p><p>怎么说呢…就像是下面这个样子</p><p><img src="parent.png" alt="娃套娃"></p><p>此时如果第三个frame里面写了这个</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;a href=&quot;https://www.runoob.com/&quot; target=&quot;_parent&quot;&gt;这个是parent&lt;/a&gt;</span><br></pre></td></tr></table></figure><p>就会让第二个frame(也就是父框架，我个人更喜欢叫上一级框架)打开相对应的网站</p><p>也就是下面这个样子(我怎么感觉我现在在说玄学…)</p><p><img src="parent_demo.gif" alt="就像下面这样"></p><h4 id="top"><a href="#top" class="headerlink" title="_top"></a>_top</h4><p>终于是最后一个啦</p><p>现在写感觉_top反而是最简单的一个，因为他的作用就是</p><p><strong>一！键！核！平！</strong></p><p>无论把他放在哪个框架里面，他都能产生和self一样的效果！</p><p><del>不要998，框架核弹带回家(?)</del></p><p>写法就像下面这样</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;a href=&quot;https://akuzyo.github.io/&quot; target=&quot;_top&quot;&gt;这是top&lt;/a&gt;</span><br></pre></td></tr></table></figure><p>效果就是<a href="https://akuzyo.github.io/" target="_top">这样啦</a>（当然这里看不出来QAQ，记得要点回来看啊啊啊）</p><p><strong>那么，target属性就介绍到这里吧，如果有错误的话可以在评论下帮忙指出（因为这个时间跨度很长了，或多或少也有些遗忘)</strong></p><hr><h3 id="id属性"><a href="#id属性" class="headerlink" title="id属性"></a>id属性</h3><p>等等，还有最后一个没有说(不过现在来说也没有很重要啦)</p><p>它的作用就是创建一个 HTML 文档书签，而且在网页中是不会显示的</p><p>它的作用…大概就是为了做标记吧（笑）</p><hr><h2 id="一如既往的，感谢你能看到最后╰-￣ω￣o"><a href="#一如既往的，感谢你能看到最后╰-￣ω￣o" class="headerlink" title="一如既往的，感谢你能看到最后╰(￣ω￣ｏ)"></a>一如既往的，感谢你能看到最后╰(￣ω￣ｏ)</h2><h2 id="这个笔记拖了好久好久，终于把他补完了…喷喷2害人不浅啊-´。＿。｀"><a href="#这个笔记拖了好久好久，终于把他补完了…喷喷2害人不浅啊-´。＿。｀" class="headerlink" title="这个笔记拖了好久好久，终于把他补完了…喷喷2害人不浅啊(´。＿。｀)"></a>这个笔记拖了好久好久，终于把他补完了…喷喷2害人不浅啊(´。＿。｀)</h2>]]></content>
     
@@ -135,6 +64,29 @@ herf
   </entry>
   
   <entry>
+    <title></title>
+    <link href="http://example.com/2022/06/17/finale/"/>
+    <id>http://example.com/2022/06/17/finale/</id>
+    <published>2022-06-17T06:32:31.000Z</published>
+    <updated>2022-10-02T14:19:08.270Z</updated>
+    
+    <content type="html"><![CDATA[<p>考完试啦</p><p>但感觉又燥又空虚</p><p>不过最近肯定会把自己以前热爱的东西捡起来的o(<em>￣▽￣</em>)ブ</p><p>希望大家和自己多多期待一下吧OWO</p>]]></content>
+    
+    
+    <summary type="html">考完试啦
+
+但感觉又燥又空虚
+
+不过最近肯定会把自己以前热爱的东西捡起来的o(￣▽￣)ブ
+
+希望大家和自己多多期待一下吧OWO</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>决定</title>
     <link href="http://example.com/2022/04/22/decision/"/>
     <id>http://example.com/2022/04/22/decision/</id>
@@ -160,9 +112,9 @@ herf
     <link href="http://example.com/2022/01/02/xz3-in-2022/"/>
     <id>http://example.com/2022/01/02/xz3-in-2022/</id>
     <published>2022-01-02T03:43:31.000Z</published>
-    <updated>2022-06-19T13:09:12.831Z</updated>
+    <updated>2022-10-02T14:07:40.250Z</updated>
     
-    <content type="html"><![CDATA[<div class="alert alert-info"><div class="icon"><i class="fa fa-info"></i></div><div class="text"><p>由于是刚上手，所以也会有后续内容的…大概<br/>同样也并不是什么十分“专业”的评测，希望大家多多指教( •̀ ω •́ )y</p></div></div><p>我收的一台是xz3红色的日版，橙色还不错</p><p>当然，受不了日版系统的臃肿，当天晚上就把它刷到欧版了</p><p><del>虽然不是第一次刷…但看到宽上面很少人刷，还是有点害怕…但最终还是成功了</del></p><h4 id="第一印象"><a href="#第一印象" class="headerlink" title="第一印象"></a>第一印象</h4><p>首先握住的感觉很舒服，尤其是开了动态震动之后（当然建议只开一档就够了，因为再往上开手就麻了）这才感觉索尼这样的驼背设计确实是有理由的</p><p>其次就是屏幕了，索尼的屏幕也同样是他的优势，非常鲜艳，开了超逼真更上一层楼，此外，虽然是LG的OLED，但也没有看出太明显的抹布现象，也没有看出阴阳屏，这点还是蛮不错的</p><p><img src="a.jpg" alt="左为xz3,右为lg v30"></p><p><img src="c.jpg" alt="右为xz3,左为lg v30"></p><p>外放音质倒是没有听出什么来，但是双扬声器这一点十分赞（起码不用担心被挡住了）</p><p>耳机口虽然没有了，但我也不嫌弃在下面加一条转接线，也还能用</p><h4 id="使用感受"><a href="#使用感受" class="headerlink" title="使用感受"></a>使用感受</h4><p>续航方面来讲，欧版好像功耗比较大，看视频的话能撑5个小时</p><p>玩原神的话…索尼的845调教真的不怎么好，高画质下某些场景帧率不稳定，让人感觉是拿了一个假的845</p><p><img src="d.png" alt="这是在高画质下原神野外营地的情况，浮动很大"></p><p>还有索尼的侧感…这个真的是我无力吐糟的一点，有的时候感应不出来，有的时候却又疯狂误触…虽然感觉在一定程度上是很便利，但最后还是换成了流体手势</p><p>相机的智能启动也很难…怎么晃都打不开相机，同样也是一个我比较喜欢的功能（喜欢照相），但学习成本还是很高…对我来说能不能打开还得随缘…</p><p><img src="b.png" alt="无语了"></p><p>此外..4+64的内存确实是比我想象中还不够用，存点照片下点软件就满了，我也不知道索尼为什么要在2019年这个价位上还是这么点内存…</p><h4 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h4><p>优点</p><ul><li><p>优秀的屏幕色彩</p></li><li><p>良好的手感</p></li><li><p>动态震动</p></li></ul><p>缺点</p><ul><li><p>4+64的小内存</p></li><li><p>不怎么好的845调教</p></li></ul><p>在2022年，xperia xz3在400-500的价位上还是比较够用的</p><p>而且这个屏幕和手感就已经很吸引我了（<del>再加上sony信仰加持</del>）</p><p>但如果对大法不感兴趣，只是想打游戏的话，建议还是不要买了，这个价位的话v30就够了</p><p>如果有个评分的话….那就是3.7/5</p><h2 id="当然，再次感谢你能看到最后╰-￣ω￣o"><a href="#当然，再次感谢你能看到最后╰-￣ω￣o" class="headerlink" title="当然，再次感谢你能看到最后╰(￣ω￣ｏ)"></a>当然，再次感谢你能看到最后╰(￣ω￣ｏ)</h2><h2 id="也祝大家2022年新年快乐，也希望自己高考加油"><a href="#也祝大家2022年新年快乐，也希望自己高考加油" class="headerlink" title="也祝大家2022年新年快乐，也希望自己高考加油"></a>也祝大家2022年新年快乐，也希望自己高考加油</h2><h2 id="就这样啦，再见o-￣▽￣-ブ"><a href="#就这样啦，再见o-￣▽￣-ブ" class="headerlink" title="就这样啦，再见o(￣▽￣)ブ"></a>就这样啦，再见o(<em>￣▽￣</em>)ブ</h2>]]></content>
+    <content type="html"><![CDATA[<div class="alert alert-info"><div class="icon"><i class="fa fa-info"></i></div><div class="text"><p>由于是刚上手，所以也会有后续内容的…大概<br/>同样也并不是什么十分“专业”的评测，希望大家多多指教( •̀ ω •́ )y</p></div></div><p>我收的一台是xz3红色的日版，橙色还不错</p><p>当然，受不了日版系统的臃肿，当天晚上就把它刷到欧版了</p><p><del>虽然不是第一次刷…但看到宽上面很少人刷，还是有点害怕…但最终还是成功了</del></p><h4 id="第一印象"><a href="#第一印象" class="headerlink" title="第一印象"></a>第一印象</h4><p>首先握住的感觉很舒服，尤其是开了动态震动之后（当然建议只开一档就够了，因为再往上开手就麻了）这才感觉索尼这样的驼背设计确实是有理由的</p><p>其次就是屏幕了，索尼的屏幕也同样是他的优势，非常鲜艳，开了超逼真更上一层楼，此外，虽然是LG的OLED，但也没有看出太明显的抹布现象，也没有看出阴阳屏，这点还是蛮不错的</p><p><img src="a.JPG" alt="左为xz3,右为lg v30"></p><p><img src="c.JPG" alt="右为xz3,左为lg v30"></p><p>外放音质倒是没有听出什么来，但是双扬声器这一点十分赞（起码不用担心被挡住了）</p><p>耳机口虽然没有了，但我也不嫌弃在下面加一条转接线，也还能用</p><h4 id="使用感受"><a href="#使用感受" class="headerlink" title="使用感受"></a>使用感受</h4><p>续航方面来讲，欧版好像功耗比较大，看视频的话能撑5个小时</p><p>玩原神的话…索尼的845调教真的不怎么好，高画质下某些场景帧率不稳定，让人感觉是拿了一个假的845</p><p><img src="d.png" alt="这是在高画质下原神野外营地的情况，浮动很大"></p><p>还有索尼的侧感…这个真的是我无力吐糟的一点，有的时候感应不出来，有的时候却又疯狂误触…虽然感觉在一定程度上是很便利，但最后还是换成了流体手势</p><p>相机的智能启动也很难…怎么晃都打不开相机，同样也是一个我比较喜欢的功能（喜欢照相），但学习成本还是很高…对我来说能不能打开还得随缘…</p><p><img src="b.png" alt="无语了"></p><p>此外..4+64的内存确实是比我想象中还不够用，存点照片下点软件就满了，我也不知道索尼为什么要在2019年这个价位上还是这么点内存…</p><h4 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h4><p>优点</p><ul><li><p>优秀的屏幕色彩</p></li><li><p>良好的手感</p></li><li><p>动态震动</p></li></ul><p>缺点</p><ul><li><p>4+64的小内存</p></li><li><p>不怎么好的845调教</p></li></ul><p>在2022年，xperia xz3在400-500的价位上还是比较够用的</p><p>而且这个屏幕和手感就已经很吸引我了（<del>再加上sony信仰加持</del>）</p><p>但如果对大法不感兴趣，只是想打游戏的话，建议还是不要买了，这个价位的话v30就够了</p><p>如果有个评分的话….那就是3.7/5</p><h2 id="当然，再次感谢你能看到最后╰-￣ω￣o"><a href="#当然，再次感谢你能看到最后╰-￣ω￣o" class="headerlink" title="当然，再次感谢你能看到最后╰(￣ω￣ｏ)"></a>当然，再次感谢你能看到最后╰(￣ω￣ｏ)</h2><h2 id="也祝大家2022年新年快乐，也希望自己高考加油"><a href="#也祝大家2022年新年快乐，也希望自己高考加油" class="headerlink" title="也祝大家2022年新年快乐，也希望自己高考加油"></a>也祝大家2022年新年快乐，也希望自己高考加油</h2><h2 id="就这样啦，再见o-￣▽￣-ブ"><a href="#就这样啦，再见o-￣▽￣-ブ" class="headerlink" title="就这样啦，再见o(￣▽￣)ブ"></a>就这样啦，再见o(<em>￣▽￣</em>)ブ</h2>]]></content>
     
     
     <summary type="html">由于是刚上手，所以也会有后续内容的…大概
@@ -237,6 +189,31 @@ html的格式化
   </entry>
   
   <entry>
+    <title></title>
+    <link href="http://example.com/2021/08/31/recent/"/>
+    <id>http://example.com/2021/08/31/recent/</id>
+    <published>2021-08-31T03:43:31.000Z</published>
+    <updated>2022-10-02T14:19:10.591Z</updated>
+    
+    <content type="html"><![CDATA[<p>”关于-这个网站“的页面也写好了，可以过去看一下o(￣▽￣)ｄ</p><p>最近的学校生活很累，但感觉很充实，和同学的关系也很好（至少比以前好多了）</p><p>但是学习的状态不怎么好，需要调整一下</p><p>本来这周回来是要写html的笔记的，但是睡了一天（所以我又没调整好）</p><p>就这样吧，要睡觉了，晚安zzz</p>]]></content>
+    
+    
+    <summary type="html">”关于-这个网站“的页面也写好了，可以过去看一下o(￣▽￣)ｄ
+
+最近的学校生活很累，但感觉很充实，和同学的关系也很好（至少比以前好多了）
+
+但是学习的状态不怎么好，需要调整一下
+
+本来这周回来是要写html的笔记的，但是睡了一天（所以我又没调整好）
+
+就这样吧，要睡觉了，晚安zzz</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>记一次公交“旅行”</title>
     <link href="http://example.com/2021/08/30/From-Jinyuan-to-Yingze/"/>
     <id>http://example.com/2021/08/30/From-Jinyuan-to-Yingze/</id>
@@ -298,6 +275,29 @@ html的格式化
     
     
     <category term="闲聊" scheme="http://example.com/tags/%E9%97%B2%E8%81%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://example.com/2021/08/11/busy/"/>
+    <id>http://example.com/2021/08/11/busy/</id>
+    <published>2021-08-10T20:43:31.000Z</published>
+    <updated>2022-10-02T14:18:07.119Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>最近因为集训…所以说先把页面放上来了…</strong></p><p>“关于..—自己”这个页面是可以用的，可以随便看一看…</p><p>有很多东西没有整好…等有时间我在慢慢改吧..</p><p>emm..就这样</p>]]></content>
+    
+    
+    <summary type="html">最近因为集训…所以说先把页面放上来了…
+
+“关于..—自己”这个页面是可以用的，可以随便看一看…
+
+有很多东西没有整好…等有时间我在慢慢改吧..
+
+emm..就这样</summary>
+    
+    
+    
     
   </entry>
   
